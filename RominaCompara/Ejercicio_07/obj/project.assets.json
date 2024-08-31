@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\Ejercicios_POO24\\RominaCompara\\Ejercicio_07\\Ejercicio_07.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07\\Ejercicio_07.csproj",
       "projectName": "Ejercicio_07",
-      "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\Ejercicios_POO24\\RominaCompara\\Ejercicio_07\\Ejercicio_07.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07\\Ejercicio_07.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\Ejercicios_POO24\\RominaCompara\\Ejercicio_07\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
