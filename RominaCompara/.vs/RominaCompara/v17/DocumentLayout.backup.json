@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C8224484-69A9-47E0-9442-79245BDD2EFC}|Ejercicio_07\\Ejercicio_07.csproj|c:\\users\\pc\\desktop\\misproyectos\\ejerciciospoo_24\\rominacompara\\ejercicio_07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8224484-69A9-47E0-9442-79245BDD2EFC}|Ejercicio_07\\Ejercicio_07.csproj|solutionrelative:ejercicio_07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D67F7B13-4F93-4683-A3D2-0B29DAEC67ED}|Ejercicio_06\\Ejercicio_06.csproj|c:\\users\\pc\\desktop\\misproyectos\\ejerciciospoo_24\\rominacompara\\ejercicio_06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D67F7B13-4F93-4683-A3D2-0B29DAEC67ED}|Ejercicio_06\\Ejercicio_06.csproj|solutionrelative:ejercicio_06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -28,11 +32,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_07\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07\\Program.cs",
+              "RelativeToolTip": "Ejercicio_07\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowC8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T20:26:24.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_06\\Program.cs",
               "RelativeDocumentMoniker": "Ejercicio_06\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_06\\Program.cs",
               "RelativeToolTip": "Ejercicio_06\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T15:43:07.67Z",
               "EditorCaption": ""
