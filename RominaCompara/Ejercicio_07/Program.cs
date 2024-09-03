@@ -24,13 +24,13 @@ namespace Ejercicio_07
             int monto;
             int cantBilletes = 0;
             string tipoBillete;
-            string billete1000 = null ;
-            string billete500 = null ;
+            string billete1000 = null;
+            string billete500 = null;
             string billete200 = null;
             string billete100 = null;
-            string billete50 = null ;
+            string billete50 = null;
             string billete20 = null;
-            string billete10 =null;
+            string billete10 = null;
             string billetesSobrant = null;
             int cantBilletes1000 = 0;
             int cantBilletes500 = 0;
