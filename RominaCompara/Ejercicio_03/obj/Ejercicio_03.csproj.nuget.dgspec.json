@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\Ejercicio_03.csproj": {}
+    "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\Ejercicio_03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\Ejercicio_03.csproj": {
+    "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\Ejercicio_03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\Ejercicio_03.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\Ejercicio_03.csproj",
         "projectName": "Ejercicio_03",
-        "projectPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\Ejercicio_03.csproj",
+        "projectPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\Ejercicio_03.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\MisProyectos\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\obj\\",
+        "outputPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
