@@ -30,9 +30,9 @@ namespace Ejercicio_08
             double radioCirculo;
 
             Console.WriteLine("Ingrese pi");
-            piCirculo = int.Parse(Console.ReadLine());
+            piCirculo = double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese radio del circulo");
-            radioCirculo = int.Parse(Console.ReadLine());
+            radioCirculo = double.Parse(Console.ReadLine());
 
             resultadoCir = CalcularAreaCirculo(piCirculo, radioCirculo);
             Console.WriteLine(resultadoCir);

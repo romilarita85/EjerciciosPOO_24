@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C6AC21D-709F-46E2-9D0D-FAA7BD5F66CB}|Ejercicio_08_Perimetros\\Ejercicio_08_Perimetros.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejercicio_08_perimetros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C6AC21D-709F-46E2-9D0D-FAA7BD5F66CB}|Ejercicio_08_Perimetros\\Ejercicio_08_Perimetros.csproj|solutionrelative:ejercicio_08_perimetros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8224484-69A9-47E0-9442-79245BDD2EFC}|Ejercicio_07\\Ejercicio_07.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejercicio_07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8224484-69A9-47E0-9442-79245BDD2EFC}|Ejercicio_07\\Ejercicio_07.csproj|solutionrelative:ejercicio_07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +40,7 @@
               "RelativeDocumentMoniker": "Ejercicio_08_Perimetros\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_08_Perimetros\\Program.cs",
               "RelativeToolTip": "Ejercicio_08_Perimetros\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCsAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCsAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T13:06:59.304Z",
               "EditorCaption": ""
@@ -57,7 +53,7 @@
               "RelativeDocumentMoniker": "Ejercicio_09\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_09\\Program.cs",
               "RelativeToolTip": "Ejercicio_09\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAAAwwCIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T12:54:45.235Z",
               "EditorCaption": ""
@@ -70,22 +66,9 @@
               "RelativeDocumentMoniker": "Ejercicio_08\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_08\\Program.cs",
               "RelativeToolTip": "Ejercicio_08\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwDIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T12:45:12.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio_07\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07\\Program.cs",
-              "RelativeToolTip": "Ejercicio_07\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T20:26:24.298Z",
               "EditorCaption": ""
             }
           ]

@@ -31,8 +31,8 @@ namespace Ejercicio_09
             double ladoTri;
 
             while (seguir.ToLower() == "si") 
-            {   
-                opcion = RetornaOpcionDelMenu();
+            {
+                opcion = RetornaOpcionDelMenuFunciones();
 
                 switch (opcion)
                 {   
@@ -43,7 +43,8 @@ namespace Ejercicio_09
                       
                         if (string.IsNullOrEmpty(funcion)) 
                         {
-                            Console.WriteLine("Debe ingresar una funcion para realizar los calculos");
+                            Console.WriteLine("Error!!Debe ingresar una funcion para realizar los calculos:");
+                
                         }
                      
                         break;
@@ -52,9 +53,10 @@ namespace Ejercicio_09
                         Console.WriteLine("Decea calcular: a-Area/p-perimetro");
                         eleccion = Console.ReadLine();
                         break;
-                
+
                     case 3:
-                        //Realizar calculo
+                        
+                        //Realizar calculo y mostrarlo
                         if (eleccion.ToLower() == "area") 
                         {
                             switch (funcion)
@@ -66,17 +68,17 @@ namespace Ejercicio_09
                                     alturaRectangulo = double.Parse(Console.ReadLine());
                                     //Console.WriteLine(CalcularAreaRectangulo);
                                     resultadoRec = CalcularAreaRectangulo(baseRectangulo, alturaRectangulo);
-                                    Console.WriteLine(resultadoRec);
+                                    Console.WriteLine($"El area del rectangulo es {resultadoRec}");
                                     break;
 
                                 case "circulo":
                                     Console.WriteLine("Ingrese pi");
-                                    piCirculo = int.Parse(Console.ReadLine());
+                                    piCirculo = double.Parse(Console.ReadLine());
                                     Console.WriteLine("Ingrese radio del circulo");
-                                    radioCirculo = int.Parse(Console.ReadLine());
+                                    radioCirculo = double.Parse(Console.ReadLine());
 
                                     resultadoCir = CalcularAreaCirculo(piCirculo, radioCirculo);
-                                    Console.WriteLine(resultadoCir);
+                                    Console.WriteLine($"El area del circulor es {resultadoCir}");
 
                                     break;
                                 case "triangulo":
@@ -87,7 +89,7 @@ namespace Ejercicio_09
                                     alturaTriangulo = double.Parse(Console.ReadLine());
 
                                     resultadoTri = CalcularAreaTriangulo(baseTriangulo, alturaTriangulo);
-                                    Console.WriteLine(resultadoTri);
+                                    Console.WriteLine($"El area del triangulo es {resultadoTri}");
 
                                     break;
                             }
@@ -107,7 +109,7 @@ namespace Ejercicio_09
 
                                         resultadoRec = CalcularPerimetroRectangulo(baseRectangulo, alturaRectangulo);
 
-                                        Console.WriteLine($"El perimetro del rectangulo es:{resultadoRec}");
+                                        Console.WriteLine($"El perimetro del rectangulo es: {resultadoRec}");
 
                                         break;
 
@@ -134,39 +136,32 @@ namespace Ejercicio_09
                             }
 
                         }
-                    
                        break;
-                    case 4:
-                        //mostrar calculos
-
-                        break;
                     default:
                         //salir del programa
-                        Console.WriteLine("Saliendo de la app.....");
+                        Console.WriteLine("Saliendo del sistema");
                         seguir = "no";
                        break;
-
                 }
-  
-  
             }
              
         }
-        static void MostrarMenu() //funcion para mostrar
+        static void MostrarMenuFunciones() //funcion para mostrar
         {
-            Console.WriteLine("\t\t\a **** Menu de funciones geometricas ****");
+            Console.WriteLine("\t\t\a ****Bienvenido/a al menu de funciones geometricas ****");
+            
             Console.WriteLine("1.Para ingresar la figura geometrica: ");
             Console.WriteLine("2.Que decea calcular: ");
-            Console.WriteLine("3.Realizar calculo: ");
-            Console.WriteLine("4.Mostrar resultado: ");
-            Console.WriteLine("5.Salir del programa");
-            Console.Write("Por favor.Ingrese su opcion: ");
+            Console.WriteLine("3.Realizar calculo y mostrar resultado: ");
+            Console.WriteLine("4.Salir del programa");
+
+            Console.Write("Por favor.Ingrese una opcion para continuar: ");
 
         }
-        static int RetornaOpcionDelMenu() //retorna las opciones
+        static int RetornaOpcionDelMenuFunciones() //retorna las opciones
         {
             int resultado;
-            MostrarMenu();
+            MostrarMenuFunciones();
             resultado = int.Parse(Console.ReadLine());
 
             return resultado;
