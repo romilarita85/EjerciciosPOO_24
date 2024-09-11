@@ -75,8 +75,6 @@ namespace Ejercicio_08
 
             return area;
         }
-       
-
 
     }
 }

@@ -12,151 +12,131 @@ namespace Ejercicio_09
             //Realizar calculo
             //mostrar resultado
             string funcion = string.Empty;
-            double area;
+            double area = double.NaN;
             string eleccion = string.Empty;
-            double perimetro;
+            double perimetro = double.NaN;
             string seguir = "si";
             int opcion;
-            double resultadoRec;
-            double baseRectangulo;
-            double alturaRectangulo;
+            double resultado = 0;
+            double baseFuncion = 0;
+            double alturaFuncion = 0;
+            double piCirculo = 3.14;
+            double radioCirculo = double.NaN;
            
-            double resultadoCir;
-            double piCirculo;
-            double radioCirculo;
-            
-            double resultadoTri;
-            double baseTriangulo;
-            double alturaTriangulo;
-            double ladoTri;
+            double ladoTri = double.NaN;
 
             while (seguir.ToLower() == "si") 
             {
                 opcion = RetornaOpcionDelMenuFunciones();
 
                 switch (opcion)
-                {   
-                    
+                {
+
                     case 1:
                         Console.WriteLine("Ingrese una funcion geometrica");
                         funcion = Console.ReadLine();
-                      
-                        if (string.IsNullOrEmpty(funcion)) 
+
+                        if (string.IsNullOrEmpty(funcion))
                         {
                             Console.WriteLine("Error!!Debe ingresar una funcion para realizar los calculos:");
-                
+
                         }
-                     
+
                         break;
 
                     case 2:
-                        Console.WriteLine("Decea calcular: a-Area/p-perimetro");
+                        Console.WriteLine("Decea calcular: area/perimetro");
                         eleccion = Console.ReadLine();
                         break;
+                    case 3://realizar calculo y mostrar resultado
 
-                    case 3:
-                        
-                        //Realizar calculo y mostrarlo
-                        if (eleccion.ToLower() == "area") 
+                        switch (funcion)
                         {
-                            switch (funcion)
-                            {
-                                case "rectangulo":
-                                    Console.WriteLine("Ingrese la base del rectangulo");
-                                    baseRectangulo = double.Parse(Console.ReadLine());
-                                    Console.WriteLine("Ingrese la altura del rectangulo");
-                                    alturaRectangulo = double.Parse(Console.ReadLine());
-                                    //Console.WriteLine(CalcularAreaRectangulo);
-                                    resultadoRec = CalcularAreaRectangulo(baseRectangulo, alturaRectangulo);
-                                    Console.WriteLine($"El area del rectangulo es {resultadoRec}");
-                                    break;
-
-                                case "circulo":
-                                    Console.WriteLine("Ingrese pi");
-                                    piCirculo = double.Parse(Console.ReadLine());
-                                    Console.WriteLine("Ingrese radio del circulo");
-                                    radioCirculo = double.Parse(Console.ReadLine());
-
-                                    resultadoCir = CalcularAreaCirculo(piCirculo, radioCirculo);
-                                    Console.WriteLine($"El area del circulor es {resultadoCir}");
-
-                                    break;
-                                case "triangulo":
-                                    Console.WriteLine("Ingrese la base del triangulo");
-                                    baseTriangulo = double.Parse(Console.ReadLine());
-
-                                    Console.WriteLine("Ingrese la altura del triangulo");
-                                    alturaTriangulo = double.Parse(Console.ReadLine());
-
-                                    resultadoTri = CalcularAreaTriangulo(baseTriangulo, alturaTriangulo);
-                                    Console.WriteLine($"El area del triangulo es {resultadoTri}");
-
-                                    break;
-                            }
-                        }
-                        else
-                        {
-                            if (eleccion.ToLower() == "perimetro") 
-                            {
-                                switch (funcion)//perimetros
+                            case "circulo":
+                                if (eleccion.ToLower() == "area")
                                 {
-                                    case "rectangulo":
-                                        Console.WriteLine("Ingrese la base de un rectangulo");
-                                        baseRectangulo = double.Parse(Console.ReadLine());
+                                   radioCirculo = PedirValores("Ingrese radio del circulo: ");
 
-                                        Console.WriteLine("Ingrese la altura de un rectangulo");
-                                        alturaRectangulo = double.Parse(Console.ReadLine());
-
-                                        resultadoRec = CalcularPerimetroRectangulo(baseRectangulo, alturaRectangulo);
-
-                                        Console.WriteLine($"El perimetro del rectangulo es: {resultadoRec}");
-
-                                        break;
-
-                                    case "circulo":
-                                        Console.WriteLine("Ingrese pi del circulo");
-                                        piCirculo = double.Parse(Console.ReadLine());
-
-                                        Console.WriteLine("Ingrese el radio");
-                                        radioCirculo = double.Parse(Console.ReadLine());
-
-                                        resultadoCir = CalcularPerimetroCirculo(piCirculo, radioCirculo);
-                                        Console.WriteLine($"El perimetro de un circulo es: {resultadoCir}");
-
-                                        break;
-
-                                    case "triangulo":
-                                        Console.WriteLine("Ingrese valor del lado");
-                                        ladoTri = double.Parse(Console.ReadLine());
-                                        resultadoTri = CalcularPerimetroTrianguloEquilatero(ladoTri);
-                                        Console.WriteLine($"El perimetro del triangulo es: {resultadoTri}");
-
-                                        break;
+                                    resultado = CalcularAreaCirculo(piCirculo, radioCirculo);
+                                    Console.WriteLine($"El area del circulo es {resultado}");
                                 }
-                            }
+                                else
+                                {
+                                    radioCirculo = PedirValores("Ingrese el radio del circulo");
 
+                                    resultado = CalcularPerimetroCirculo(piCirculo, radioCirculo);
+                                    Console.WriteLine($"El perimetro de un circulo es: {resultado}");
+                                }
+
+                                break;
+
+                            case "triangulo":
+                                if (eleccion.ToLower() == "area")
+                                {
+
+                                    baseFuncion = PedirValores("Ingrese la base del triangulo");
+                                    alturaFuncion = PedirValores("Ingrese la altura del triangulo");
+
+                                    resultado = CalcularAreaTriangulo(baseFuncion, alturaFuncion);
+                                    Console.WriteLine($"El area del triangulo es {resultado}");
+                                }
+                                else
+                                {
+                                    ladoTri = PedirValores("Ingrese valor del lado");
+                                    resultado = CalcularPerimetroTrianguloEquilatero(ladoTri);
+                                    Console.WriteLine($"El perimetro del triangulo es: {resultado}");
+                                }
+
+                                break;
+
+                            case "rectangulo":
+                                if (eleccion.ToLower() == "area")
+                                {
+                                    baseFuncion = PedirValores("Ingrese la base del rectangulo");
+                                    alturaFuncion = PedirValores("Ingrese la altura del rectangulo"); ;
+
+                                    resultado = CalcularAreaRectangulo(baseFuncion, alturaFuncion);
+                                    Console.WriteLine($"El area del rectangulo es {resultado}");
+                                }
+                                else
+                                {
+                                    baseFuncion = PedirValores("Ingrese la base de un rectangulo");
+                                    alturaFuncion = PedirValores("Ingrese la altura de un rectangulo");
+
+                                    resultado = CalcularPerimetroRectangulo(baseFuncion, alturaFuncion);
+
+                                    Console.WriteLine($"El perimetro del rectangulo es: {resultado}");
+
+                                }
+
+                                break;
+                            default:
+                                //opcion incorrecta
+                                Console.WriteLine("La opcion ingresada no es valida");
+                                break;
                         }
-                       break;
-                    default:
-                        //salir del programa
-                        Console.WriteLine("Saliendo del sistema");
-                        seguir = "no";
-                       break;
+                       
+                        Console.WriteLine("Precione una tecla para continuar.......");
+                        Console.ReadKey();//precione una tecla cualquiera
+                        Console.Clear();//limpia
+                        break;
+
                 }
+                
             }
              
         }
         static void MostrarMenuFunciones() //funcion para mostrar
         {
-            Console.WriteLine("\t\t\a ****Bienvenido/a al menu de funciones geometricas ****");
+            Console.WriteLine("\t\t\t ****Bienvenido/a al menu de funciones geometricas ****");
             
             Console.WriteLine("1.Para ingresar la figura geometrica: ");
             Console.WriteLine("2.Que decea calcular: ");
             Console.WriteLine("3.Realizar calculo y mostrar resultado: ");
+            //Console.WriteLine("4.Mostrar resultado);
             Console.WriteLine("4.Salir del programa");
 
             Console.Write("Por favor.Ingrese una opcion para continuar: ");
-
         }
         static int RetornaOpcionDelMenuFunciones() //retorna las opciones
         {
@@ -213,5 +193,68 @@ namespace Ejercicio_09
 
             return perimetro;
         }
+        static double PedirValores(string mensaje) 
+        {
+            Console.WriteLine(mensaje);
+            return double.Parse(Console.ReadLine());
+        }
+        
     }
 }
+//case 4://agregar case para mostrar resultados
+
+//    if (eleccion.ToLower() == "area")
+//    {
+//        switch (funcion)
+//        {
+//            case "rectangulo":
+//                resultado = CalcularAreaRectangulo(baseRectangulo, alturaRectangulo);
+//                Console.WriteLine($"El area del rectangulo es {resultadoRec}");
+//                break;
+
+//            case "circulo":
+
+//                resultadoCir = CalcularAreaCirculo(piCirculo, radioCirculo);
+//                Console.WriteLine($"El area del circulor es {resultadoCir}");
+
+//                break;
+//            case "triangulo":
+
+//                resultadoTri = CalcularAreaTriangulo(baseTriangulo, alturaTriangulo);
+//                Console.WriteLine($"El area del triangulo es {resultadoTri}");
+
+//                break;
+//        }
+//    }
+//    else
+//    {
+//        if (eleccion.ToLower() == "perimetro")
+//        {
+//            switch (funcion)//perimetros
+//            {
+//                case "rectangulo":
+
+//                    resultadoRec = CalcularPerimetroRectangulo(baseRectangulo, alturaRectangulo);
+
+//                    Console.WriteLine($"El perimetro del rectangulo es: {resultadoRec}");
+
+//                    break;
+
+//                case "circulo":
+
+//                    resultadoCir = CalcularPerimetroCirculo(piCirculo, radioCirculo);
+//                    Console.WriteLine($"El perimetro de un circulo es: {resultadoCir}");
+
+//                    break;
+
+//                case "triangulo":
+
+//                    resultadoTri = CalcularPerimetroTrianguloEquilatero(ladoTri);
+//                    Console.WriteLine($"El perimetro del triangulo es: {resultadoTri}");
+
+//                    break;
+//            }
+
+//        }
+
+//        break;
