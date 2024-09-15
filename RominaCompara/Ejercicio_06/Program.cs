@@ -43,7 +43,7 @@ namespace Ejercicio_06
                 if (num > 0)
                 {
                     sumaPositivos += numIng;//sumaPositivos = sumaPositivos + numIng;//Sumadelospositivos
-                    cantidadNegativos += 1;//cantidadPositivos = cantidadPositivos + 1;//○ Cantidad de positivos.
+                    cantidadPositivos += 1;//cantidadPositivos = cantidadPositivos + 1;//○ Cantidad de positivos.
                 }
                 else 
                 {
@@ -100,5 +100,6 @@ namespace Ejercicio_06
             Console.WriteLine($"De los negativos el minimo: {numMinNeg}");
         
         }
+       
     }
 }

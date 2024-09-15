@@ -20,11 +20,11 @@ namespace Ejercicio_03Funciones
             double valorPjeP = 0.45;
             double valorPjeT = 0.15;
 
-            ptoAnual = PedirDouble("Ingrese su presupuesto Anual");
+            ptoAnual = PedirDouble("Ingrese su presupuesto Anual: ");
 
-            ptoCardio = ptoAnual * valorPjeC;
-            ptoPedia = ptoAnual * valorPjeP;
-            ptoTrauma = ptoAnual * valorPjeT;
+            ptoCardio = ValorPto(ptoAnual,valorPjeC);
+            ptoPedia = ValorPto(ptoAnual,valorPjeP);
+            ptoTrauma = ValorPto(ptoAnual,valorPjeT);
 
             Console.WriteLine("El dinero que se destinará a cada área sera de:");
             Console.WriteLine($"Para cardiologia ${ptoCardio}");
@@ -38,6 +38,10 @@ namespace Ejercicio_03Funciones
             resultado = double.Parse(Console.ReadLine());
             return resultado;
         }
-        //hacer  otr funcion para mostrar ptos
+        public static double ValorPto(double monto, double porcentaje) 
+        {
+            double resultado;
+            return resultado = monto * porcentaje;
+        }
     }
 }
