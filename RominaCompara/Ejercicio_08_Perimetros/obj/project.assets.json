@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_08_Perimetros\\Ejercicio_08_Perimetros.csproj",
-      "projectName": "Ejercicio_08_Perimetros",
-      "projectPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_08_Perimetros\\Ejercicio_08_Perimetros.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_08_Perimetros\\Ejercicio_08_PerimetrosAreas.csproj",
+      "projectName": "Ejercicio_08_PerimetrosAreas",
+      "projectPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_08_Perimetros\\Ejercicio_08_PerimetrosAreas.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_08_Perimetros\\obj\\",
       "projectStyle": "PackageReference",

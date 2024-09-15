@@ -1,0 +1,15 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\bin\Debug\net8.0\Ejercicio_04Funciones.exe
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\bin\Debug\net8.0\Ejercicio_04Funciones.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\bin\Debug\net8.0\Ejercicio_04Funciones.runtimeconfig.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\bin\Debug\net8.0\Ejercicio_04Funciones.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\bin\Debug\net8.0\Ejercicio_04Funciones.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\Ejercicio_04Funciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\Ejercicio_04Funciones.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\Ejercicio_04Funciones.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\Ejercicio_04Funciones.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\Ejercicio_04Funciones.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\Ejercicio_04Funciones.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\refint\Ejercicio_04Funciones.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\Ejercicio_04Funciones.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\Ejercicio_04Funciones.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_04Funciones\obj\Debug\net8.0\ref\Ejercicio_04Funciones.dll
