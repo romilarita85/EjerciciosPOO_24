@@ -55,10 +55,12 @@ namespace Ejercicio_06Funciones
                        
                         break;
                  }
-                if (num % 2 == 0)  //○ Cantidad de números pares.
-                {
-                    cantidadNumPares = cantidadNumPares + 1;
-                }
+
+                cantidadNumPares = SacarCantidadPares(num);
+                //if (num % 2 == 0)  //○ Cantidad de números pares.
+                //{
+                //    cantidadNumPares = cantidadNumPares + 1;
+                //}
                 if (i == 1 || numIng > numMax) //○ El número máximo
                 {//i = variable d control-indica primer numero ingesado
                     numMax = numIng;
@@ -103,7 +105,17 @@ namespace Ejercicio_06Funciones
             }
             return par;
         }
-       
+        public static int SacarCantidadPares(int numero) 
+        {
+            int cantidadPares = 0;
+        
+            if (numero % 2 == 0)  //○ Cantidad de números pares.
+            {
+                cantidadPares = cantidadPares + 1;
+            }
+
+            return cantidadPares;
+        }
 
         public static int EvaluarPositividad(int numero) 
         {
