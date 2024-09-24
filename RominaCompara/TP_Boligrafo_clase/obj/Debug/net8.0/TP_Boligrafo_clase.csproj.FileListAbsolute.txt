@@ -1,0 +1,15 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\bin\Debug\net8.0\TP_Boligrafo_clase.exe
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\bin\Debug\net8.0\TP_Boligrafo_clase.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\bin\Debug\net8.0\TP_Boligrafo_clase.runtimeconfig.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\bin\Debug\net8.0\TP_Boligrafo_clase.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\bin\Debug\net8.0\TP_Boligrafo_clase.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\TP_Boligrafo_clase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\TP_Boligrafo_clase.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\TP_Boligrafo_clase.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\TP_Boligrafo_clase.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\TP_Boligrafo_clase.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\TP_Boligrafo_clase.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\refint\TP_Boligrafo_clase.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\TP_Boligrafo_clase.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\TP_Boligrafo_clase.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\TP_Boligrafo_clase\obj\Debug\net8.0\ref\TP_Boligrafo_clase.dll

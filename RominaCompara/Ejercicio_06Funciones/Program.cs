@@ -12,9 +12,17 @@
 //○ El número máximo
 //○ De los negativos el mínimo
 using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Ejercicio_06Funciones
 {
+    //enumerado
+    public enum Signo
+    {
+        Positivo,
+        Negativo,
+        Cero
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -22,168 +30,142 @@ namespace Ejercicio_06Funciones
             int num;
             int sumaNegativos = 0;
             int sumaPositivos = 0;
-            int numIng = 0;
+      
             int cantidadPositivos = 0;
             int cantidadNegativos = 0;
             int cantidadCeros = 0;
             int cantidadNumPares = 0;
-            int promedioPositivos = 0;
-            int promedioNegativos = 0;
+            float promedioPositivos;//No se inicializan los promedio no son contadores ni acumuladores
+            float promedioNegativos;
             int difPosNeg;
             int numMax = 0;
             int numMinNeg = 0;
-            bool primerNeg = false;
+           
         
 
             for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine($"Ingrese un numero {i} de 15 ");
-                num = int.Parse(Console.ReadLine());
-               
-                 switch (EvaluarPositividad(num))
-                 {
-                     case 0:
-                         cantidadCeros = EvaluarCantidadCeros(cantidadCeros);//0k
-                         break;
-                     case 1:
-                        sumaPositivos = SumarPositivos(num,sumaPositivos);//ok
-                        cantidadPositivos = EvaluarCantidadPositivos(cantidadPositivos);//ok
-                         break;
-                     default:
-                        sumaNegativos = SumarNegativos(num, sumaNegativos); //ok
-                        cantidadNegativos = EvaluarCantidadNegativos(cantidadNegativos);//ok
-                       
-                        break;
-                 }
-
-                cantidadNumPares = SacarCantidadPares(num);
-                //if (num % 2 == 0)  //○ Cantidad de números pares.
-                //{
-                //    cantidadNumPares = cantidadNumPares + 1;
-                //}
-                if (i == 1 || numIng > numMax) //○ El número máximo
-                {//i = variable d control-indica primer numero ingesado
-                    numMax = numIng;
-                }
-                if ((numIng < 0 && primerNeg == false) || (numIng < 0 && numIng < numMinNeg))  //○ De los negativos el mínimo
+                num = PedirNumero($"Ingrese un numero {i} de 15 ");
+                Signo signo = VerificarSigno(num);
+                switch (signo)
                 {
-                    numMinNeg = numIng;
-                    primerNeg = true;
+                     case Signo.Cero:
+                         cantidadCeros ++ ;
+                         break;
+                     case Signo.Positivo:
+                        sumaPositivos += num ;
+                        cantidadPositivos++;
+                         break;
+                     case Signo.Negativo:
+                        sumaNegativos += num ; 
+                        cantidadNegativos ++;
+                        
+                        //○ De los negativos el mínimo
+                        if (cantidadNegativos == 1 || num < numMinNeg)
+                        {// el primer numero q ingreso es el minimo 
+                            numMinNeg = num;
+                        }
+                        break;
                 }
-              
+                //○ Cantidad de números pares.
+                if (VerificarParidad(num) == true) //me interesa q sea true
+                { //tengo el universo de los pares
+                    cantidadNumPares++;
+                }
+                //○ El número máximo
+                if (i == 1 || num > numMax) 
+                {//i = variable d control-indica primer numero ingesado
+                    numMax = num;
+                }
+
             }
-            if (cantidadPositivos != 0)//○ Promedio de positivos.
+            Console.WriteLine($"1.La suma de los negativos es: {sumaNegativos}");//ok
+            Console.WriteLine($"2.La suma de los positivos es: {sumaPositivos}");//ok
+            Console.WriteLine($"3.La cantidad de los positivos es: {cantidadPositivos}");//ok
+            Console.WriteLine($"4.La cantidad de los negativos es: {cantidadNegativos}");//ok
+            Console.WriteLine($"5.La cantidad de ceros es: {cantidadCeros}");//ok
+            Console.WriteLine($"6.La cantidad de numeros pares es: {cantidadNumPares}");
+           
+            //○ Promedio de positivos.
+            if (cantidadPositivos > 0)//si la cantidad de positivos es mayor a cero significa q por lo menos un positivo ingres0
             {
-                promedioPositivos = sumaPositivos / cantidadPositivos;
+                promedioPositivos = CalcularPromedio(sumaPositivos, cantidadPositivos);
+                Console.WriteLine($"7.El promedio de los positivos es: {promedioPositivos}");
             }
-            if (cantidadNegativos != 0)//○ Promedio de negativos.
+            else
             {
-                promedioNegativos = sumaNegativos / cantidadNegativos;
+                Console.WriteLine("7.No se ingresaron numeros positivos para calcular el promedio.");
+            }
+            //○ Promedio de negativos.
+            if (cantidadNegativos > 0)
+            {
+                promedioNegativos = CalcularPromedio(sumaNegativos,cantidadNegativos);
+                Console.WriteLine($"8.El promedio de los negativos es: {promedioNegativos}");
+            }
+            else
+            {
+                Console.WriteLine("8.No se ingresaron numeros negativos para calcular el promedio.");
             }
 
-            difPosNeg = sumaPositivos - (-sumaNegativos);//○ Diferencia entre positivos y negativos, (positivos - negativos).
             
-            Console.WriteLine($"La suma de los negativos es: {sumaNegativos}");//ok
-            Console.WriteLine($"La suma de los positivos es: {sumaPositivos}");//ok
-            Console.WriteLine($"La cantidad de los positivos es: {cantidadPositivos}");//ok
-            Console.WriteLine($"La cantidad de los negativos es: {cantidadNegativos}");//ok
-            Console.WriteLine($"La cantidad de ceros es: {cantidadCeros}");//ok
-            Console.WriteLine($"La cantidad de numeros pares es: {cantidadNumPares}");
-            Console.WriteLine($"El promedio de los positivos es: {promedioPositivos}");//ok;
-            Console.WriteLine($"El promedio de los negativos es: {promedioNegativos}");//ok
-            Console.WriteLine($"La diferencia entre positivos y negativos, (positivos - negativos) es: {difPosNeg}"); //ok
-            Console.WriteLine($"El numero maximo es: {numMax}");
-            Console.WriteLine($"De los negativos el minimo: {numMinNeg}");
+            difPosNeg = sumaPositivos - (-sumaNegativos);//○ Diferencia entre positivos y negativos, (positivos - negativos).
+            Console.WriteLine($"9.La diferencia entre positivos y negativos, (positivos - negativos) es: {difPosNeg}"); //ok
+            
+            
+            Console.WriteLine($"10.El numero maximo es: {numMax}");
+            
+            Console.WriteLine($"11.De los negativos el minimo: {numMinNeg}");
+
+
         }
-
-        public static bool EsPar(int numero) 
+         //Funcion para pedir numero
+        static int PedirNumero(string msj) 
         {
-            bool par = false; //no es par
-            if (numero % 2 == 0) //para evaluar paridad-si el resto queda en cero quiere decir q se pudo dividir por 2 y es par
-            {
-                par = true;
-            }
-            return par;
+            int numero; //numero leido o ingresado
+            Console.WriteLine(msj);
+            numero = int.Parse(Console.ReadLine());
+            return numero;//retorna numero(devuelve)
         }
-        public static int SacarCantidadPares(int numero) 
+        static Signo VerificarSigno(int numero) //USANDO ENUMERADOS
         {
-            int cantidadPares = 0;
-        
-            if (numero % 2 == 0)  //○ Cantidad de números pares.
+            Signo esPositivo = Signo.Cero; // por default el numero es cero
+            if (numero > 0)
             {
-                cantidadPares = cantidadPares + 1;
+                esPositivo = Signo.Positivo;
             }
-
-            return cantidadPares;
-        }
-
-        public static int EvaluarPositividad(int numero) 
-        {
-            int positividad = 0;
-            if (numero > 0)//positivo
-            {
-
-                positividad = 1;
-            }
-            else //sino es negativo
+            else
             {
                 if (numero < 0)
                 {
-                    positividad = -1;
+                    esPositivo = Signo.Negativo;
                 }
             }
-            return positividad;
+            return esPositivo;
         }
-        public static int SumarPositivos(int numIng, int sumaPos) 
+        public static bool VerificarParidad(int numero) 
         {
-            
-            if (numIng > 0)//positivo
+            bool esPar = false; //no es par
+            if (numero != 0 && numero % 2 == 0) //para evaluar paridad-si el resto queda en cero quiere decir q se pudo dividir por 2 y es par
             {
-                sumaPos += numIng;
+                esPar = true;
+            }
+            return esPar;
+        }
+        static float CalcularPromedio(int suma, int contador)
+        {
+            float resultado;
+            resultado = (float)suma / contador; // castear (a float) para que no haya perdida de informacion
+            //un entero sobre un entero por ende se debe convertir en flotante
+            return resultado;
+        }
+        //funcion para calcular diferencia
+        static int CalcularDiferencia(int unNumero, int otroNumero)
+        {
+            int resultado;
+            resultado = unNumero - otroNumero;
+            return resultado;
+        }
 
-            }
-            return sumaPos;
-        }
-        public static int SumarNegativos(int numIng, int sumaNeg)
-        {
 
-            if (numIng < 0)//positivo
-            {
-                sumaNeg += numIng;
-
-            }
-            return sumaNeg;
-        }
-        public static int EvaluarCantidadPositivos( int cantidadPositivos) 
-        {
-            return cantidadPositivos += 1;
-        }
-        public static int EvaluarCantidadNegativos(int cantidadNegativos) 
-        {
-            return cantidadNegativos += 1;
-        }
-        public static int EvaluarCantidadCeros(int cantidadCeros) //ok
-        {
-            return cantidadCeros = cantidadCeros + 1;
-        }
-        public static int EvaluarCantidadPares(int numero) //revisar-consultar
-        {
-            int cantidadPares = 0;
-            if (numero % 2 == 0)  //○ Cantidad de números pares.
-            {
-                cantidadPares = cantidadPares + 1;
-            }
-            return cantidadPares;
-        }
-        public static int EvaluarNumMax(int numMax)//revisar-Consultar
-        {
-            int num = 0;
-            int i = 0;
-            if (i == 1 || num > numMax) //○ El número máximo
-            {//i = variable d control-indica primer numero ingesado
-                numMax = num;
-            }
-            return num;
-        }
     }
 }

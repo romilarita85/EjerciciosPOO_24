@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09D61EC8-CFEF-4694-93D2-BE355EAA7934}|Ejercicio_06Funciones\\Ejercicio_06Funciones.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejercicio_06funciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D61EC8-CFEF-4694-93D2-BE355EAA7934}|Ejercicio_06Funciones\\Ejercicio_06Funciones.csproj|solutionrelative:ejercicio_06funciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FAAD1AC-3E3C-45B8-B57B-CC5E2041176E}|TP_Boligrafo_clase\\TP_Boligrafo_clase.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\tp_boligrafo_clase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAAD1AC-3E3C-45B8-B57B-CC5E2041176E}|TP_Boligrafo_clase\\TP_Boligrafo_clase.csproj|solutionrelative:tp_boligrafo_clase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D67F7B13-4F93-4683-A3D2-0B29DAEC67ED}|Ejercicio_06\\Ejercicio_06.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejercicio_06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D67F7B13-4F93-4683-A3D2-0B29DAEC67ED}|Ejercicio_06\\Ejercicio_06.csproj|solutionrelative:ejercicio_06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FAAD1AC-3E3C-45B8-B57B-CC5E2041176E}|TP_Boligrafo_clase\\TP_Boligrafo_clase.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\tp_boligrafo_clase\\boligrafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAAD1AC-3E3C-45B8-B57B-CC5E2041176E}|TP_Boligrafo_clase\\TP_Boligrafo_clase.csproj|solutionrelative:tp_boligrafo_clase\\boligrafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_06\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio_06\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_06\\Program.cs",
-              "RelativeToolTip": "Ejercicio_06\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwD0AAAAPAAAAAAAAAA==",
+              "Title": "Boligrafo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\TP_Boligrafo_clase\\Boligrafo.cs",
+              "RelativeDocumentMoniker": "TP_Boligrafo_clase\\Boligrafo.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\TP_Boligrafo_clase\\Boligrafo.cs",
+              "RelativeToolTip": "TP_Boligrafo_clase\\Boligrafo.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAgwJEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T00:28:14.085Z",
+              "WhenOpened": "2024-09-21T00:53:34.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_06Funciones\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio_06Funciones\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_06Funciones\\Program.cs",
-              "RelativeToolTip": "Ejercicio_06Funciones\\Program.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAUwL0AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\TP_Boligrafo_clase\\Program.cs",
+              "RelativeDocumentMoniker": "TP_Boligrafo_clase\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\TP_Boligrafo_clase\\Program.cs",
+              "RelativeToolTip": "TP_Boligrafo_clase\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T18:19:00.687Z",
+              "WhenOpened": "2024-09-21T00:50:35.517Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ejercicio_08_PerimetrosAreas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b00e8c1e6f4f479e1251c919efcba69796f6445e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d36db2863ccc78f0ed834034195377e872c0928d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ejercicio_08_PerimetrosAreas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ejercicio_08_PerimetrosAreas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
