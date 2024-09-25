@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "TP_Boligrafo_clase/1.0.0": {
+        "dependencies": {
+          "Biblioteca_Boligrafo": "1.0.0"
+        },
         "runtime": {
           "TP_Boligrafo_clase.dll": {}
+        }
+      },
+      "Biblioteca_Boligrafo/1.0.0": {
+        "runtime": {
+          "Biblioteca_Boligrafo.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "TP_Boligrafo_clase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Biblioteca_Boligrafo/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

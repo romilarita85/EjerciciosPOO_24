@@ -1,0 +1,12 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\bin\Debug\net8.0\Biblioteca_Boligrafo.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\bin\Debug\net8.0\Biblioteca_Boligrafo.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\bin\Debug\net8.0\Biblioteca_Boligrafo.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\Biblioteca_Boligrafo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\Biblioteca_Boligrafo.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\Biblioteca_Boligrafo.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\Biblioteca_Boligrafo.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\Biblioteca_Boligrafo.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\Biblioteca_Boligrafo.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\refint\Biblioteca_Boligrafo.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\Biblioteca_Boligrafo.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Biblioteca_Boligrafo\obj\Debug\net8.0\ref\Biblioteca_Boligrafo.dll
