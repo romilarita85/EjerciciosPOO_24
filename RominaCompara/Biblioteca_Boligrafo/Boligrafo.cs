@@ -106,7 +106,12 @@ namespace Biblioteca_Boligrafo
         public string Escribir(string texto)
         {
             string puedeEscribir = "No alcanza tinta";
-            int tintaSuficiente = 0;
+            int tintaSuficiente = texto.Length; // Si trazo es fino, es igual a la longitud del texto
+            
+            if (grosorPunta == "Grueso")
+            {
+                tintaSuficiente = texto.Length * 2; // Si trazo es grueso, el gasto es el doble
+            }
 
             if (cantidadTinta > tintaSuficiente)
             {

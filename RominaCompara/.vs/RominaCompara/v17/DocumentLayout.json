@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD0E5870-1612-48C5-AE43-C68BE685EDF5}|Biblioteca_Boligrafo\\Biblioteca_Boligrafo.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\biblioteca_boligrafo\\boligrafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD0E5870-1612-48C5-AE43-C68BE685EDF5}|Biblioteca_Boligrafo\\Biblioteca_Boligrafo.csproj|solutionrelative:biblioteca_boligrafo\\boligrafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FAAD1AC-3E3C-45B8-B57B-CC5E2041176E}|TP_Boligrafo_clase\\TP_Boligrafo_clase.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\tp_boligrafo_clase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FAAD1AC-3E3C-45B8-B57B-CC5E2041176E}|TP_Boligrafo_clase\\TP_Boligrafo_clase.csproj|solutionrelative:tp_boligrafo_clase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E5870-1612-48C5-AE43-C68BE685EDF5}|Biblioteca_Boligrafo\\Biblioteca_Boligrafo.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\biblioteca_boligrafo\\boligrafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E5870-1612-48C5-AE43-C68BE685EDF5}|Biblioteca_Boligrafo\\Biblioteca_Boligrafo.csproj|solutionrelative:biblioteca_boligrafo\\boligrafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Boligrafo.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Biblioteca_Boligrafo\\Boligrafo.cs",
               "RelativeDocumentMoniker": "Biblioteca_Boligrafo\\Boligrafo.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Biblioteca_Boligrafo\\Boligrafo.cs",
               "RelativeToolTip": "Biblioteca_Boligrafo\\Boligrafo.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAwD0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwGsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T14:28:57.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\TP_Boligrafo_clase\\Program.cs",
               "RelativeDocumentMoniker": "TP_Boligrafo_clase\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\TP_Boligrafo_clase\\Program.cs",
               "RelativeToolTip": "TP_Boligrafo_clase\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T00:50:35.517Z",
               "EditorCaption": ""
