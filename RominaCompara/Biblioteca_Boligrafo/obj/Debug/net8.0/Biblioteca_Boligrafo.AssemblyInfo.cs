@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Biblioteca_Boligrafo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5307aefc42fa9127e71f20be9abd94bcc5f0d73a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2075be45661c88d9fc7d9964b6c4b9c318ce91e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Biblioteca_Boligrafo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Biblioteca_Boligrafo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,27 +14,41 @@ namespace TP_Boligrafo_clase
 
             Console.WriteLine(boligrafo1.MostrarInformacion());
             Console.WriteLine(boligrafo2.MostrarInformacion());
-
+            
+            //Usanso metodos Set:
             boligrafo1.SetColor(Color.Aqua);
             boligrafo1.SetCapTintaMax(20);
             boligrafo1.SetGrosorPunta("Grueso");
             boligrafo1.SetCantidadTinta(55);
-            Console.WriteLine(boligrafo1.MostrarInformacion());
+            Console.WriteLine($"Los nuevos valores para mi boligrafo 1 son : {boligrafo1.MostrarInformacion()}");
+            //Usando metodo Get:
+            Console.WriteLine("Consultando valores del boligrafo 2: ");
+            Console.Write($"\nColor: {boligrafo2.GetColor()}");
+            Console.Write($"\nCantidad de tinta: {boligrafo2.GetCantidadTinta()}");
+            Console.Write($"\nCantidad de tinta maxima: {boligrafo2.GetCapTintaMax()}");
+            Console.Write($"\nGrosor de punta: {boligrafo2.GetGrosorPunta()}\n");
 
-            boligrafo2.GetCantidadTinta();
-            boligrafo2.GetColor();
-            boligrafo2.GetCapTintaMax();
-            boligrafo2.GetGrosorPunta();
-
-
-            string texto =  boligrafo1.Escribir("Hola");
+            //Probando metodo Escribir:
+            string texto = boligrafo1.Escribir("Hola");
             Console.WriteLine(texto);
 
             string texto1 = boligrafo2.Escribir("Hola soy Romina");
             Console.WriteLine(texto1);
-            //int cantidad = boligrafo1.Recargar(100);
-            //Console.WriteLine(cantidad);
+
+            Console.WriteLine($"Estado del boligrafo 1: {boligrafo1.Escribir("Hola")}"); 
+            Console.WriteLine($"Estado del boligrafo 2: {boligrafo2.Escribir("Hola")}"); 
+
+
+            Console.WriteLine(boligrafo1.Escribir("El ejercicio pide: Utilizar todos los métodos y mostrar los resultados por consola"));
+            Console.WriteLine(boligrafo2.Escribir("Estoy escribiendo un texto para hacer testeo del metodo Recargar. Debo verificar que funcione"));
+
+
+            //Probando metodo Recargar:
+            Console.WriteLine(boligrafo1.Recargar(20)); 
+
+            Console.WriteLine(boligrafo2.Recargar(60));
 
         }
+
     }
 }
