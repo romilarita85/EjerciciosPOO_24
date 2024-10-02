@@ -1,0 +1,12 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\bin\Debug\net8.0\BibliotecaEstudiante.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\bin\Debug\net8.0\BibliotecaEstudiante.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\bin\Debug\net8.0\BibliotecaEstudiante.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\BibliotecaEstudiante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\BibliotecaEstudiante.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\BibliotecaEstudiante.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\BibliotecaEstudiante.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\BibliotecaEstudiante.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\BibliotecaEstudiante.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\refint\BibliotecaEstudiante.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\BibliotecaEstudiante.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante\obj\Debug\net8.0\ref\BibliotecaEstudiante.dll

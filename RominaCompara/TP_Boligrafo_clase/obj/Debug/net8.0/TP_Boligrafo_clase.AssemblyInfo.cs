@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP_Boligrafo_clase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2075be45661c88d9fc7d9964b6c4b9c318ce91e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+946d63802fa73496043092a20f47006101e12276")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP_Boligrafo_clase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP_Boligrafo_clase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

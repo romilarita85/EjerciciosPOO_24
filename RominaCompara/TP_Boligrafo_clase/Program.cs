@@ -21,6 +21,7 @@ namespace TP_Boligrafo_clase
             boligrafo1.SetGrosorPunta("Grueso");
             boligrafo1.SetCantidadTinta(55);
             Console.WriteLine($"Los nuevos valores para mi boligrafo 1 son : {boligrafo1.MostrarInformacion()}");
+           
             //Usando metodo Get:
             Console.WriteLine("Consultando valores del boligrafo 2: ");
             Console.Write($"\nColor: {boligrafo2.GetColor()}");
@@ -35,11 +36,10 @@ namespace TP_Boligrafo_clase
             string texto1 = boligrafo2.Escribir("Hola soy Romina");
             Console.WriteLine(texto1);
 
-            Console.WriteLine($"Estado del boligrafo 1: {boligrafo1.Escribir("Hola")}"); 
-            Console.WriteLine($"Estado del boligrafo 2: {boligrafo2.Escribir("Hola")}"); 
-
-
+            Console.WriteLine($"Estado del boligrafo 1: "); 
             Console.WriteLine(boligrafo1.Escribir("El ejercicio pide: Utilizar todos los métodos y mostrar los resultados por consola"));
+           
+            Console.WriteLine($"Estado del boligrafo 2: "); 
             Console.WriteLine(boligrafo2.Escribir("Estoy escribiendo un texto para hacer testeo del metodo Recargar. Debo verificar que funcione"));
 
 
