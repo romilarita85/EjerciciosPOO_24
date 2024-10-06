@@ -75,6 +75,22 @@ namespace BibliotecaEstudiante
             
             return resultado;
         }
+        //otra forma:
+        private double CalcularNotaFinal2()
+        {
+            double resultado;
+
+            if ((this.notaPrimerParcial >= 4) && (this.notaSegundoParcial >= 4))
+            {
+                resultado = Estudiante.rnd.Next(6, 10);//numero aleatorio entre 6 y 10
+            }
+            else 
+            {
+                resultado = -1; //no se pudo
+            }
+
+            return resultado;
+        }
 
         //El método Mostrar utilizará StringBuilder para armar una cadena de texto con todos los datos de los alumnos:
         //Nombre, apellido y legajo.

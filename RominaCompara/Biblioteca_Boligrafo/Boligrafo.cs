@@ -132,7 +132,7 @@ namespace Biblioteca_Boligrafo
 
         public string Recargar(int cantidad) //Ver en clase
         {
-            string recarga = string.Empty;
+            string recarga = string.Empty;//cadena
 
             int cantidadTintaRec;
             cantidadTintaRec = this.cantidadTinta + cantidad;

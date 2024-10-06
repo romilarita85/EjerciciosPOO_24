@@ -1,0 +1,12 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\bin\Debug\net8.0\BibliotecaEstudiante2.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\bin\Debug\net8.0\BibliotecaEstudiante2.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\bin\Debug\net8.0\BibliotecaEstudiante2.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\BibliotecaEstudiante2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\BibliotecaEstudiante2.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\BibliotecaEstudiante2.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\BibliotecaEstudiante2.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\BibliotecaEstudiante2.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\BibliotecaEstudiante2.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\refint\BibliotecaEstudiante2.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\BibliotecaEstudiante2.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaEstudiante2\obj\Debug\net8.0\ref\BibliotecaEstudiante2.dll
