@@ -13,14 +13,15 @@ namespace Ejercicio_06Vectores
             int[] vector = { 5, 1, -9, -1, 9, 3, -2, 2 };
 
             int auxiliar;
-
-
+            
             // Mostrar los negativos de forma creciente y los positivos de forma decreciente.
-            //acemdemte:
+         
             for (int i = 0; i < vector.Length; i++)
             {
-                for (int j = i + 1; j < vector.Length; j++)
+                
+                for (int j = i + 1; j < vector.Length; j++) //creciente
                 {
+
                     if (vector[i] > vector[j]) 
                     { 
                        auxiliar = vector[i];
@@ -29,10 +30,13 @@ namespace Ejercicio_06Vectores
                     }
                    
                 }
-
+                
             }
+            Console.WriteLine("********Forma creciente********");
+            MostrarVector(vector);
+            
             //decreciente:
-            for (int i = 0; i < vector.Length; i++)
+            for (int i = 0; i < vector.Length; i++) 
             {
                 for (int j = i + 1; j < vector.Length; j++)
                 {
@@ -46,6 +50,16 @@ namespace Ejercicio_06Vectores
                 }
 
             }
+            Console.WriteLine("********Forma decreciente********");
+            MostrarVector(vector);
+        }
+        static void MostrarVector(int[] vector) 
+        {
+            for (int i = 0; i < vector.Length; i++)
+            {
+                Console.WriteLine(vector[i]);
+            }
+
         }
     }
 }

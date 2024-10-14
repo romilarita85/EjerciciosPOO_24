@@ -1,0 +1,15 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\bin\Debug\net8.0\Ejercicio_07Vectores.exe
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\bin\Debug\net8.0\Ejercicio_07Vectores.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\bin\Debug\net8.0\Ejercicio_07Vectores.runtimeconfig.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\bin\Debug\net8.0\Ejercicio_07Vectores.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\bin\Debug\net8.0\Ejercicio_07Vectores.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\Ejercicio_07Vectores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\Ejercicio_07Vectores.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\Ejercicio_07Vectores.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\Ejercicio_07Vectores.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\Ejercicio_07Vectores.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\Ejercicio_07Vectores.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\refint\Ejercicio_07Vectores.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\Ejercicio_07Vectores.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\Ejercicio_07Vectores.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_07Vectores\obj\Debug\net8.0\ref\Ejercicio_07Vectores.dll

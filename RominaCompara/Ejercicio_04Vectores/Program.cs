@@ -5,13 +5,14 @@
 // b. Ordenar vector.
 // c. Contar vocales dentro del vector. (Cuantas a, e, i, o y u)
 // d. Reemplazar consonantes por el carácter ‘*’ y mostrar
+using System.Numerics;
 namespace Ejercicio_04Vectores
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
         }
     }
 }
