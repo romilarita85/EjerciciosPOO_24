@@ -17,7 +17,7 @@ namespace Ejercicio_07Vectores
         {
             int[] vector_a = new int[5];
             int[] vector_b = new int[5];
-            int[] vector_c = { 9, 4, 10, 9, 3 };
+            int[] vector_c = new int[5];
             Console.WriteLine("*******Vector a*********");
             PedirVector(vector_a);
             Console.WriteLine("************************");
@@ -27,8 +27,27 @@ namespace Ejercicio_07Vectores
             Console.WriteLine("************************");
             MostrarVector(vector_b);
 
+            Console.WriteLine("*******Vector c*********");
 
+            //El tercer vector deberá guardar el valor más grande como resultado de la
+            //comparación de los otros dos
+            for (int i = 0; i < 5; i++)
+            {//[i]= indica la posicion
+                if (vector_a[i] >= vector_b[i]) // vector_a es mayor o igual a vector_b
+                {
+                    vector_c[i] = vector_a[i]; // vector_c toma el valor de vector_a
+                }
+                else //vectorA es menor a VectorB
+                {
+                    if (vector_a[i] <= vector_b[i]) 
+                    { 
+                    }
+                    vector_c[i] = vector_b[i]; // vector_c toma el valor de vector_b
+                }
+            }
+            MostrarVector(vector_c);
         }
+        
         static void PedirVector(int[] vector) 
         {
             for (int i = 0; i < vector.Length; i++)
@@ -46,9 +65,6 @@ namespace Ejercicio_07Vectores
 
             }
         }
-        static void CompararVector(int[] vetor1, int[] vector2) 
-        {
-              
-        }
+        
     }
 }
