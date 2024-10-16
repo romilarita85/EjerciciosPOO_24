@@ -10,57 +10,39 @@ namespace Ejercicio_06Vectores
     {
         static void Main(string[] args)
         {
-            int[] vector = new int[9];
+            int[] vector = new int[4];
 
             int auxiliar;
 
             PedirVector(vector);
-            MostrarVector(vector);  
-            // Mostrar los negativos de forma creciente y los positivos de forma decreciente.
-         
-            for (int i = 0; i < vector.Length; i++)
-            {
-                
-                for (int j = i + 1; j < vector.Length; j++) //creciente
-                {
-                    //if (vector[i] < 0) 
-                    //{ 
-
-                        if (vector[i] > vector[j]) 
-                        { 
-                            auxiliar = vector[i];
-                            vector[i] = vector[j];
-                            vector[j] = auxiliar;
-                        }
-                    //}
-                }
-                
-            }
-            Console.WriteLine("********negativos en forma creciente********");
             MostrarVector(vector);
             
-            //decreciente:
-            for (int i = 0; i < vector.Length; i++) 
-            {
-                //if (vector[i] >= 0) 
-                //{ 
-                     for (int j = i + 1; j < vector.Length; j++)
-                     {
-                        if (vector[i] < vector[j])
-                        {
-                            auxiliar = vector[i];
-                            vector[i] = vector[j];
-                            vector[j] = auxiliar;
-                        }
-                     }
-                
-                //}
-
-            }
-            Console.WriteLine("********positivos en forma decreciente********");
+            OrdenarNegativosCreciente(vector);
+            Console.WriteLine("********Negativos en forma creciente********");
             MostrarVector(vector);
+
+           
+            OrdenarPositivosDecreciente(vector);
+            Console.WriteLine("********Positivos en forma decreciente********");
+            MostrarVector(vector);
+
+            Console.WriteLine("********ORDENAMIENTO MENOR A MAYOR********");
+            OrdenarVectorAscDesc(vector,true);//menor a mayor
+            MostrarVector(vector);
+            Console.WriteLine("********ORDENAMIENTO MAYOR A MENOR********");
+            OrdenarVectorAscDesc(vector,false);//mayor a menor
+            MostrarVector(vector);
+            //**************************************************************
+            int cantidad = 8;
+            int[] misNumeros = CargarArrayDeEnteros(cantidad);
+
+            OrdenarPorCriterio(misNumeros, true);
+            MostrarPorCriterio("Positivos en forma creciente", misNumeros, true);
+
+            OrdenarPorCriterio(misNumeros, false);
+            MostrarPorCriterio("Negativos en forma decreciente", misNumeros, false);
         }
-        static void MostrarVector(int[] vector) 
+        static void MostrarVector(int[] vector)
         {
             for (int i = 0; i < vector.Length; i++)
             {
@@ -68,7 +50,7 @@ namespace Ejercicio_06Vectores
             }
 
         }
-        static void PedirVector(int[] vector) 
+        static void PedirVector(int[] vector)
         {
             for (int i = 0; i < vector.Length; i++)
             {
@@ -77,29 +59,133 @@ namespace Ejercicio_06Vectores
                 vector[i] = numero;
             }
         }
-        public static void MostrarPositivos(int[] vector) 
+      
+        public static string PedirCadena(string mensaje)
         {
-            foreach (int numero in vector)
-            {
-                int positivos = 0;
-                if (numero > 0) 
-                {
-                    positivos = numero;
-                    
-                }
-            }
+            Console.Write(mensaje);
+            return Console.ReadLine();
         }
-        public static void MostrarNegativos(int[] vector)
+        public static int PedirEntero(string mensaje, string mensajeError)
         {
-            foreach (int numero in vector)
-            {
-                int negativos = 0;
-                if (numero > 0)
-                {
-                    negativos = numero;
+            int numeroValido;
+            string numeroLeido;
+            numeroLeido = PedirCadena(mensaje);
 
+            while (!int.TryParse(numeroLeido, out numeroValido))
+            {
+                Console.WriteLine(mensajeError);
+                numeroLeido = PedirCadena(mensaje);
+            }
+            return numeroValido;
+        }
+        public static int[] CargarArrayDeEnteros(int cantidad)
+        {
+            int[] numeros = new int[cantidad];
+            for (int i = 0; i < cantidad; i++)
+            {
+                numeros[i] = PedirEntero($"Ingrese el nunero {i + 1} de {cantidad}: ", "El dato ingresado no es un numero");
+            }
+            return numeros;
+        }
+        //Método MostrarPorCriterio: Este método recibe un mensaje para
+        //mostrar por pantalla, un array de enteros y un booleano
+        //que determina si se deben mostrar los números positivos o negativos.
+        //Luego, itera sobre cada número en el array y muestra aquellos
+        //que cumplen con el criterio especificado.
+        public static int[] MostrarPorCriterio(string mensaje, int[] vector, bool mostrarPositivo)
+        {//Forma simplificada
+            Console.WriteLine(mensaje);
+            foreach (int numero in vector)
+            {
+                if ((mostrarPositivo == true && numero > 0) || (mostrarPositivo == false && numero < 0))
+                {
+                    Console.WriteLine(numero); //muestra el numero
                 }
             }
+            return vector;
         }
+        //Método OrdenarPorCriterio: Este método recibe un array de enteros
+        //y un booleano que indica si se debe ordenar de menor a mayor (true)
+        //o de mayor a menor (false). Utiliza un algoritmo de ordenación
+        // para ordenar el array según el criterio especificado.
+        public static int[] OrdenarPorCriterio(int[] datos, bool ordenarMenor)
+        {//Forma mas simple
+            //arrays ordenados de menor a mayor
+            int aux;
+            for (int i = 0; i < datos.Length; i++)
+            {
+                for (int j = i + 1; j < datos.Length; j++)
+                {
+                    if ((ordenarMenor == true && datos[i] > datos[j]) || (ordenarMenor == false && datos[i] < datos[j]))
+                    {
+                        aux = datos[i];
+                        datos[i] = datos[j];
+                        datos[j] = aux;
+                    }
+                }
+            }
+            return datos;
+        }
+        public static void OrdenarPositivosDecreciente(int[] vector)
+        {
+            for (int i = 0; i < vector.Length; i++)
+            {
+                    for (int j = i + 1; j < vector.Length; j++)
+                    {
+                        if ( vector[i] < vector[j] && vector[i] >= 0)
+                        {
+                            int temp = vector[i];
+                            vector[i] = vector[j];
+                            vector[j] = temp;
+                        }
+                    }
+    
+            }
+        }
+        public static void OrdenarNegativosCreciente(int[] vector)
+        {
+            for (int i = 0; i < vector.Length; i++)
+            {
+                    for (int j = i + 1; j < vector.Length; j++)
+                    {
+                        if (vector[i] > vector[j] && vector[i] < 0)
+                        {
+                            int temp = vector[i];
+                            vector[i] = vector[j];
+                            vector[j] = temp;
+                        }
+                    }
+
+            }
+        }
+        public static void OrdenarVectorAscDesc(int[] vector, bool ascendente) 
+        {
+            for (int i = 0; i < vector.Length; i++)
+            {
+                for (int j = i + 1; j < vector.Length; j++)
+                {
+                    if (ascendente)
+                    {
+                        if (vector[i] > vector[j])// Ascendente Menor a mayor-Creciente
+                        {
+                            int auxiliar = vector[i];
+                            vector[i] = vector[j];
+                            vector[j] = auxiliar;
+                        }
+                    }
+                    else 
+                    {
+                        if (vector[i] < vector[j]) //Descendente mayor a menor-Decreciente
+                        {
+                            int auxiliar = vector[i];
+                            vector[i] = vector[j];
+                            vector[j] = auxiliar;
+                        }
+                    }                
+                }
+            }
+
+        }
+
     }
 }

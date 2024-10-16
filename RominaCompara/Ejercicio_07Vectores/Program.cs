@@ -18,6 +18,7 @@ namespace Ejercicio_07Vectores
             int[] vector_a = new int[5];
             int[] vector_b = new int[5];
             int[] vector_c = new int[5];
+           
             Console.WriteLine("*******Vector a*********");
             PedirVector(vector_a);
             Console.WriteLine("************************");
@@ -41,8 +42,9 @@ namespace Ejercicio_07Vectores
                 {
                     if (vector_a[i] <= vector_b[i]) 
                     { 
+                        vector_c[i] = vector_b[i]; // vector_c toma el valor de vector_b
                     }
-                    vector_c[i] = vector_b[i]; // vector_c toma el valor de vector_b
+                    
                 }
             }
             MostrarVector(vector_c);
