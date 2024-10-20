@@ -1,4 +1,14 @@
-﻿namespace Examen2
+﻿//Crear un menu de opciones que permita:
+//a-Cargar un array de caracteres en minusculas.Normalizar el ingreso de caracteres
+//con metodos de string
+//b-Contar vocales dentro del vector (cuantas a,e,i,o,u)
+//c-Ordenar el array de manera alfabetica y mostrarlo.Corregir codigo.
+//d-Reemplazar la vocal ingresada por teclado (validar q sea una vocal), por el caracter $
+//e-Mostrar el array de reversa.
+//Crear una clase con metodos estaticos para todos los requerimientos del examen y llamarlos desde el main
+using BibliotecaDeVectores;
+
+namespace Examen2
 {
     internal class Program
     {
@@ -6,13 +16,14 @@
         {
             int opcion;
 
-            char[] arrayCaracteres = new char[5];
+            char[] arrayCaracteres = new char[6];
 
             string seguir = "si";
 
 
             while (seguir.ToLower() == "si")
             {
+           
                 //1-Cargar un array de caracteres en minuscula.Normalizar el ingreso de caracteres con metodo to string
 
                 Console.WriteLine("**********************Menú de opciones*************************");
@@ -28,31 +39,46 @@
                 switch (opcion)
                 {
                     case 1:
-                        Vectores.IngresarArray(arrayCaracteres);
-                        Vectores.MostrarArrayChar(arrayCaracteres);
+                        //a-Cargar un array de caracteres en minusculas.
+                        //Normalizar el ingreso de caracteres con metodos de string
+                        Vector.CargarArray1(arrayCaracteres);
+                        
+                        Console.WriteLine("Contenido del array");
+
+                        foreach (char c in arrayCaracteres)
+                        {
+                            Console.WriteLine(c);
+                        }
+
+
+                        //Vector.MostrarChar(arrayCaracteres);
 
                         break;
                     case 2:
-                        Vectores.ContarVocales(arrayCaracteres);
+                        //b-Contar vocales dentro del vector (cuantas a,e,i,o,u)
+                        int cantVocales = 0;
+                        cantVocales = Vector.ContarVocales(arrayCaracteres);
+
+                        Console.WriteLine($"La cantidad de vocales del array es: {cantVocales}");
 
                         break;
                     case 3:
-                        //ordenar array de manera alfavetica y mostrarlo
+                        //c-Ordenar el array de manera alfabetica y mostrarlo.Corregir codigo.
 
-                        Vectores.OrdenarArray(arrayCaracteres);
-                        Vectores.MostrarArrayChar(arrayCaracteres);
+                        Vector.OrdenarArrayCorregido(arrayCaracteres);
+                        Vector.MostrarChar(arrayCaracteres);
 
                         break;
                     case 4:
-                        //Reemplazar la vocal ingresada por teclado(validar que sea una vocal), por el caracter $.Mostrar el array
-                        Vectores.ReemplazarVocal(arrayCaracteres);
-
+                        //Reemplazar la vocal ingresada por teclado(validar que sea una vocal), por el caracter $.
+                        //Mostrar el array
+                        Vector.ReemplazarVocal(arrayCaracteres);
+                        Vector.MostrarChar(arrayCaracteres);
                         break;
                     case 5:
                         //Mostrar el array de reversa;
-
-                        Vectores.MostrarArrayReversa(arrayCaracteres);
-
+                        Vector.ArrayReversa(arrayCaracteres);
+                        Vector.MostrarChar(arrayCaracteres);
                         break;
                     case 6:
                         Console.WriteLine("Saliendo. del sistema..");
@@ -63,7 +89,8 @@
                         Console.WriteLine("La opcion ingresada es invalida. Vuelva a intentarlo....");
                         break;
                 }
-
+                //Console.WriteLine("Desea seguir: si/no");
+                //seguir = Console.ReadLine();
             }
         }
     }
