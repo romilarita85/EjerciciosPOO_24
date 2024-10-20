@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{266EA6D4-BA3F-4EF7-AD2D-2DB48545AA68}|Ejercicio_05Vectores\\Ejercicio_05Vectores.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejercicio_05vectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{266EA6D4-BA3F-4EF7-AD2D-2DB48545AA68}|Ejercicio_05Vectores\\Ejercicio_05Vectores.csproj|solutionrelative:ejercicio_05vectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05BAC189-F741-49E4-8F7F-D5F56A0FA17A}|Examen2\\Examen2.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\examen2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05BAC189-F741-49E4-8F7F-D5F56A0FA17A}|Examen2\\Examen2.csproj|solutionrelative:examen2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC62061C-983C-46B6-A2F5-1219D8C8A563}|Ejercicio_03Vectores\\Ejercicio_03Vectores.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejercicio_03vectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC62061C-983C-46B6-A2F5-1219D8C8A563}|Ejercicio_03Vectores\\Ejercicio_03Vectores.csproj|solutionrelative:ejercicio_03vectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{600D4CDB-FFE6-4888-A9C5-CAD4517BDEE8}|Ejercicio_07Vectores\\Ejercicio_07Vectores.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejercicio_07vectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{600D4CDB-FFE6-4888-A9C5-CAD4517BDEE8}|Ejercicio_07Vectores\\Ejercicio_07Vectores.csproj|solutionrelative:ejercicio_07vectores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,22 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_05Vectores\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio_05Vectores\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_05Vectores\\Program.cs",
-              "RelativeToolTip": "Ejercicio_05Vectores\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T14:17:37.626Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -48,15 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07Vectores\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicio_07Vectores\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_07Vectores\\Program.cs",
-              "RelativeToolTip": "Ejercicio_07Vectores\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwBUAAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Examen2\\Program.cs",
+              "RelativeDocumentMoniker": "Examen2\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Examen2\\Program.cs",
+              "RelativeToolTip": "Examen2\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwEIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T14:17:49.579Z",
+              "WhenOpened": "2024-10-20T01:10:17.134Z",
               "EditorCaption": ""
             },
             {
@@ -67,7 +49,7 @@
               "RelativeDocumentMoniker": "Ejercicio_03Vectores\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicio_03Vectores\\Program.cs",
               "RelativeToolTip": "Ejercicio_03Vectores\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAgwDMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T13:57:35.748Z",
               "EditorCaption": ""

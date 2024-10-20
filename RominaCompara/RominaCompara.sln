@@ -47,19 +47,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaEstudiante2", "Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteoEstudiante2", "TesteoEstudiante2\TesteoEstudiante2.csproj", "{578C6FF3-309C-44ED-930D-357719602FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_01Vectores", "Ejercicio_01Vectores\Ejercicio_01Vectores.csproj", "{27E896C8-9381-41D4-8C70-3871948318A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_01Vectores", "Ejercicio_01Vectores\Ejercicio_01Vectores.csproj", "{27E896C8-9381-41D4-8C70-3871948318A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_02Vectores", "Ejercicio_02Vectores\Ejercicio_02Vectores.csproj", "{7997444A-D540-4DF0-AD54-B2D947F2E457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_02Vectores", "Ejercicio_02Vectores\Ejercicio_02Vectores.csproj", "{7997444A-D540-4DF0-AD54-B2D947F2E457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_03Vectores", "Ejercicio_03Vectores\Ejercicio_03Vectores.csproj", "{CC62061C-983C-46B6-A2F5-1219D8C8A563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_03Vectores", "Ejercicio_03Vectores\Ejercicio_03Vectores.csproj", "{CC62061C-983C-46B6-A2F5-1219D8C8A563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_04Vectores", "Ejercicio_04Vectores\Ejercicio_04Vectores.csproj", "{6AFB509E-DE40-4F0C-954F-1B00C99843B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_04Vectores", "Ejercicio_04Vectores\Ejercicio_04Vectores.csproj", "{6AFB509E-DE40-4F0C-954F-1B00C99843B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_05Vectores", "Ejercicio_05Vectores\Ejercicio_05Vectores.csproj", "{266EA6D4-BA3F-4EF7-AD2D-2DB48545AA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_05Vectores", "Ejercicio_05Vectores\Ejercicio_05Vectores.csproj", "{266EA6D4-BA3F-4EF7-AD2D-2DB48545AA68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_06Vectores", "Ejercicio_06Vectores\Ejercicio_06Vectores.csproj", "{D6693EB4-A4F2-4DDF-983B-2A157D0918BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_06Vectores", "Ejercicio_06Vectores\Ejercicio_06Vectores.csproj", "{D6693EB4-A4F2-4DDF-983B-2A157D0918BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_07Vectores", "Ejercicio_07Vectores\Ejercicio_07Vectores.csproj", "{600D4CDB-FFE6-4888-A9C5-CAD4517BDEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_07Vectores", "Ejercicio_07Vectores\Ejercicio_07Vectores.csproj", "{600D4CDB-FFE6-4888-A9C5-CAD4517BDEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen2", "Examen2\Examen2.csproj", "{05BAC189-F741-49E4-8F7F-D5F56A0FA17A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{600D4CDB-FFE6-4888-A9C5-CAD4517BDEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600D4CDB-FFE6-4888-A9C5-CAD4517BDEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600D4CDB-FFE6-4888-A9C5-CAD4517BDEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BAC189-F741-49E4-8F7F-D5F56A0FA17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BAC189-F741-49E4-8F7F-D5F56A0FA17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BAC189-F741-49E4-8F7F-D5F56A0FA17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BAC189-F741-49E4-8F7F-D5F56A0FA17A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
