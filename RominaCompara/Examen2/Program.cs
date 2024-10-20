@@ -15,11 +15,8 @@ namespace Examen2
         static void Main(string[] args)
         {
             int opcion;
-
-            char[] arrayCaracteres = new char[6];
-
             string seguir = "si";
-
+            char[] arrayCaracteres = null;
 
             while (seguir.ToLower() == "si")
             {
@@ -41,44 +38,66 @@ namespace Examen2
                     case 1:
                         //a-Cargar un array de caracteres en minusculas.
                         //Normalizar el ingreso de caracteres con metodos de string
-                        Vector.CargarArray1(arrayCaracteres);
+                       
+                        arrayCaracteres = Vector.CargarArray2();
                         
-                        Console.WriteLine("Contenido del array");
+                        Console.WriteLine("Contenido del array:*****************");
 
-                        foreach (char c in arrayCaracteres)
-                        {
-                            Console.WriteLine(c);
-                        }
-
-
-                        //Vector.MostrarChar(arrayCaracteres);
+                        Vector.MostrarChar(arrayCaracteres);
 
                         break;
                     case 2:
                         //b-Contar vocales dentro del vector (cuantas a,e,i,o,u)
-                        int cantVocales = 0;
-                        cantVocales = Vector.ContarVocales(arrayCaracteres);
-
-                        Console.WriteLine($"La cantidad de vocales del array es: {cantVocales}");
-
+                        if (arrayCaracteres != null)
+                        {
+                            int cantVocales = Vector.ContarVocales(arrayCaracteres);
+                            Console.WriteLine($"La cantidad de vocales del array es: {cantVocales}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Primero debes cargar el array.");
+                        }
+                       
                         break;
                     case 3:
                         //c-Ordenar el array de manera alfabetica y mostrarlo.Corregir codigo.
 
-                        Vector.OrdenarArrayCorregido(arrayCaracteres);
-                        Vector.MostrarChar(arrayCaracteres);
+                        if (arrayCaracteres != null)
+                        {
+                            Vector.OrdenarArrayCorregido(arrayCaracteres);
+                            Vector.MostrarChar(arrayCaracteres);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Primero debes cargar el array.");
+                        }
 
                         break;
                     case 4:
                         //Reemplazar la vocal ingresada por teclado(validar que sea una vocal), por el caracter $.
                         //Mostrar el array
-                        Vector.ReemplazarVocal(arrayCaracteres);
-                        Vector.MostrarChar(arrayCaracteres);
+                        if (arrayCaracteres != null)
+                        {
+                            Vector.ReemplazarVocal(arrayCaracteres);
+                            Vector.MostrarChar(arrayCaracteres);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Primero debes cargar el array.");
+                        }
                         break;
                     case 5:
                         //Mostrar el array de reversa;
-                        Vector.ArrayReversa(arrayCaracteres);
-                        Vector.MostrarChar(arrayCaracteres);
+                        if (arrayCaracteres != null)
+                        {
+                            Console.WriteLine("Array al reves:*****************");
+                            Vector.ArrayReversa(arrayCaracteres);
+                            Vector.MostrarChar(arrayCaracteres);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Primero debes cargar el array.");
+                        }
                         break;
                     case 6:
                         Console.WriteLine("Saliendo. del sistema..");

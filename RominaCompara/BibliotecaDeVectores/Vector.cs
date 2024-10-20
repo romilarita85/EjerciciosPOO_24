@@ -94,7 +94,7 @@
             {
                 for (int j = i + 1; j < vector.Length; j++)
                 {
-                    if (vector[i] < vector[j])
+                    if (vector[i] > vector[j])
                     {
                         char auxiliar = vector[i];
                         vector[i] = vector[j];
@@ -104,15 +104,17 @@
                 }
             }
         }
-        public static void ArrayReversa(char[] array)
+        public static void ArrayReversa(char[] letras)
         {
 
-            for (int i = array.Length - 1; i >= 0; i++)
+            for (int i = letras.Length - 1; i >= 0; i--)
             {
-                Console.Write(array[i]);
+                Console.Write(letras[i]);
                
             }
         }
+
+       
 
 
     }

@@ -12,6 +12,7 @@ namespace Ejercicio_04Vectores
     {
         static void Main(string[] args)
         {
+
             char[] arrayCaracteres = null;
             string seguir = "si";//variable de control
             int opcion;
@@ -29,64 +30,48 @@ namespace Ejercicio_04Vectores
 
                 switch (opcion)
                 {
-                    case 1:
-                        Console.Write("Introduce una cadena de caracteres: ");
-                        string palabra = Console.ReadLine();//lee la palabra
-                        arrayCaracteres = palabra.ToCharArray();// convierte a char
-                        Console.WriteLine("El array fue cargado.");
+                    case 1:// a.Cargar un array de caracteres. Recomendación: utilizar el
+                           // método toCharArray().
+                        arrayCaracteres = CargarArray();
+                        Console.WriteLine("Contenido del array de caracteres: ");
+                        MostrarArrayChar(arrayCaracteres);
+
                         break;
 
-                    case 2:
+                    case 2:// b. Ordenar vector.
                         if (arrayCaracteres != null)
                         {
-                            Array.Sort(arrayCaracteres);
-                            string arrayOrdenado = new string(arrayCaracteres); //creo instancia de string
-                           
-                            Console.WriteLine($"Array ordenado: {arrayOrdenado}");
+                            Console.WriteLine("Mostrando el array ordenado: ");
+                            OrdenarArray(arrayCaracteres);
+                            MostrarArrayChar(arrayCaracteres);
                         }
                         else
                         {
-                            Console.WriteLine("Error!! Debes cargar el array.");
+                            Console.WriteLine("Primero debes cargar el array.");
                         }
+                        
                         break;
 
-                    case 3:// c. Contar vocales dentro del vector. (Cuantas a, e, i, o y u)
-                        if (arrayCaracteres != null)//verifico si es nulo
+                    case 3:// c. Contar vocales dentro del vector. (Cuantas a, e, i, o y u)// ok
+                       
+                        if (arrayCaracteres != null)
                         {
-                            int contadorVocales = 0;
-                            foreach (char caracter in arrayCaracteres)
-                            {
-                                if ("aeiouAEIOU".Contains(caracter))
-                                {
-                                    contadorVocales++;
-                                }
-                            }
-                            Console.WriteLine($"Cantidad de vocales del array: {contadorVocales}");
+              
+                            int cantVocales = ContarVocales(arrayCaracteres);
+
+                            Console.WriteLine($"La cantidad de vocales del array es: {cantVocales}");
                         }
                         else
                         {
-                            Console.WriteLine("Error!! Debes cargar el array.");
+                            Console.WriteLine("Primero debes cargar el array.");
                         }
                         break;
 
                     case 4:// d. Reemplazar consonantes por el carácter ‘*’ y mostrar
-                        if (arrayCaracteres != null) //si es nulo?
+                        if (arrayCaracteres != null)
                         {
-                            char[] arrayModificado = new char[arrayCaracteres.Length];
-                            for (int i = 0; i < arrayCaracteres.Length; i++)
-                            {
-                                if ("aeiouAEIOU".Contains(arrayCaracteres[i]))
-                                {
-                                    arrayModificado[i] = arrayCaracteres[i]; // mantiene vocales
-                                }
-                                else
-                                {
-                                    arrayModificado[i] = '*'; // reemplaza consonantes
-                                }
-                            }
-                            string modificado = new string(arrayModificado);
-                            Console.WriteLine($"El Array modificado es: {modificado}");
-                           
+                            ReemplazarConsonantes(arrayCaracteres);
+                            MostrarArrayChar(arrayCaracteres);
                         }
                         else
                         {
@@ -107,41 +92,91 @@ namespace Ejercicio_04Vectores
             }
 
         }
-        static void CargarArrayCaracteres(char[] array) 
+        public static char[] CargarArray()// no estoy limitado por la cantidad de letras
+        {
+            string lectura;
+            Console.WriteLine("Ingrese una palabra: ");
+            lectura = Console.ReadLine();//ReadLine te devuelve un string
+
+            return lectura.ToCharArray();
+        }
+
+        public static void MostrarArrayChar(char[] vector) 
+        {
+            foreach (char c in vector)
+            {
+                Console.Write(c); 
+            }
+        }
+        public static void OrdenarArray(char[] array) 
         {
             for (int i = 0; i < array.Length; i++)
             {
-                Console.Write($"Ingrese el carácter {i + 1}: ");
-                array[i] = Console.ReadKey().KeyChar; // Leer un carácter
-                Console.WriteLine(); // Salto de línea
-            }
-
-        }
-        static void MostrarArrayChar(char[] array) 
-        {
-            foreach (char c in array)
-            {
-                Console.Write(c + " "); // Imprimir cada carácter seguido de un espacio
-            }
-        }
-        static void OrdenarArray(char[] array) 
-        {
-            int n = array.Length;
-
-            // Ordenar el array usando el algoritmo burbuja
-            for (int i = 0; i < n - 1; i++)
-            {
-                for (int j = 0; j < n - 1 - i; j++)
+                for (int j = i + 1; j < array.Length ; j++)
                 {
-                    if (array[j] > array[j + 1])
+                    if (array[i] > array[j])
                     {
                         // Intercambiar los caracteres
-                        char temp = array[j];
-                        array[j] = array[j + 1];
-                        array[j + 1] = temp;
+                        char aux = array[i];
+                        array[i] = array[j];
+                        array[j] = aux;
                     }
                 }
             }
+        }
+        public static void ReemplazarConsonantes(char[] letras) 
+        {
+            for (int i = 0; i < letras.Length; i++)
+            {
+                if (letras[i] == 'b' || letras[i] == 'c' || letras[i] == 'd' || letras[i] == 'f' || letras[i] == 'g' || letras[i] == 'h' || letras[i] == 'g'|| letras[i] == 'j'|| letras[i] == 'k'|| letras[i] == 'l'|| letras[i] == 'm' || letras[i] == 'n' ||  letras[i] == 'ñ' || letras[i] == 'p' || letras[i] == 'q'|| letras[i] == 'r'|| letras[i] == 's'|| letras[i] == 't'|| letras[i] == 'v'|| letras[i] == 'w' || letras[i] == 'x'|| letras[i] == 'y'|| letras[i] == 'z')
+                {
+                    letras[i] = '*';
+                }
+            }
+        }
+        //METODO PARA CONTAR VOCALES
+        
+        public static int ContarLetraVocal(char[] vector, char valorBuscado)
+        {
+            int contador = 0;//contador se recetea dento del metodo
+            for (int i = 0; i < vector.Length; i++)
+            {
+                if (vector[i] == valorBuscado)
+                {
+                    contador++;
+
+                }
+            }
+            return contador;
+        }
+        public static int ContarLetraVocal2(char[] vector, char valorBuscado)
+        {
+            int contador = 0;//contador se recetea dento del metodo
+            foreach (char c in vector)
+            {
+                if (c == valorBuscado)
+                {
+                    contador++;
+                }
+            }
+            return contador;
+        }
+        public static int ContarVocales(char[] vector)
+        {
+            int contadorVocales = 0;
+            for (int i = 0; i < vector.Length; i++)
+            {
+                Console.WriteLine(vector[i]);
+
+                char letra = char.ToLower(vector[i]);
+
+                if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u')
+                {
+                    contadorVocales++;
+
+                }
+            }
+            return contadorVocales;
         }
     }
 }
