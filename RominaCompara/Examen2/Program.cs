@@ -1,4 +1,5 @@
-﻿//Crear un menu de opciones que permita:
+﻿//Examen 2:
+//Crear un menu de opciones que permita:
 //a-Cargar un array de caracteres en minusculas.Normalizar el ingreso de caracteres
 //con metodos de string
 //b-Contar vocales dentro del vector (cuantas a,e,i,o,u)
@@ -18,17 +19,15 @@ namespace Examen2
             string seguir = "si";
             char[] arrayCaracteres = null;
 
-            while (seguir.ToLower() == "si")
+            while (seguir.ToLower() == "si") //ToLower convierte a minuscula
             {
            
-                //1-Cargar un array de caracteres en minuscula.Normalizar el ingreso de caracteres con metodo to string
-
                 Console.WriteLine("**********************Menú de opciones*************************");
                 Console.WriteLine("1.Cargar un array de caracteres en minusculas. ");
                 Console.WriteLine("2.Contar vocales dentro del vector (cuantas a,e,i,o,u)");
                 Console.WriteLine("3.Ordenar el array de manera alfabetica y mostrarlo");
                 Console.WriteLine("4.Reemplazar la vocal ingresada por teclado por el caracter $");
-                Console.WriteLine("5. Mostrar el array de reversa");
+                Console.WriteLine("5.Mostrar el array de reversa");
                 Console.WriteLine("6.Salir");
                 Console.Write("Selecciona una opción para  continuar: ");
 
@@ -50,8 +49,23 @@ namespace Examen2
                         //b-Contar vocales dentro del vector (cuantas a,e,i,o,u)
                         if (arrayCaracteres != null)
                         {
-                            int cantVocales = Vector.ContarVocales(arrayCaracteres);
-                            Console.WriteLine($"La cantidad de vocales del array es: {cantVocales}");
+                            int cantA = 0;
+                            int cantE = 0;
+                            int cantI = 0;
+                            int cantO = 0;
+                            int cantU = 0;
+
+                            cantA = Vector.ContarLetra1(arrayCaracteres,'a');
+                            cantE = Vector.ContarLetra1(arrayCaracteres, 'e');
+                            cantI = Vector.ContarLetra1(arrayCaracteres, 'i');
+                            cantO = Vector.ContarLetra1(arrayCaracteres, 'o');
+                            cantU = Vector.ContarLetra1(arrayCaracteres, 'u');
+
+                            Console.WriteLine($"La cantidad de letras a: {cantA}");
+                            Console.WriteLine($"La cantidad de letras e: {cantE}");
+                            Console.WriteLine($"La cantidad de letras i: {cantI}");
+                            Console.WriteLine($"La cantidad de letras o: {cantO}");
+                            Console.WriteLine($"La cantidad de letras u: {cantU}");
                         }
                         else
                         {
@@ -66,6 +80,7 @@ namespace Examen2
                         {
                             Vector.OrdenarArrayCorregido(arrayCaracteres);
                             Vector.MostrarChar(arrayCaracteres);
+                           
                         }
                         else
                         {
@@ -78,6 +93,7 @@ namespace Examen2
                         //Mostrar el array
                         if (arrayCaracteres != null)
                         {
+                            
                             Vector.ReemplazarVocal(arrayCaracteres);
                             Vector.MostrarChar(arrayCaracteres);
                         }

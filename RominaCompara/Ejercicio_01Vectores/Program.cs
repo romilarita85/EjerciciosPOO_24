@@ -51,7 +51,6 @@ namespace Ejercicio_01Vectores
                 vector[i] = numero;
             }
         }
-
         static void MostrarVector(int[] vector) // con for
         {
             for (int i = 0; i < vector.Length; i++)
@@ -66,7 +65,6 @@ namespace Ejercicio_01Vectores
                 Console.WriteLine(elemento);
             }
         }
-
         static void MostrarNumerosPares(int[] vector) 
         {
             foreach (int numero in vector)

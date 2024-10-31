@@ -56,10 +56,24 @@ namespace Ejercicio_04Vectores
                        
                         if (arrayCaracteres != null)
                         {
-              
-                            int cantVocales = ContarVocales(arrayCaracteres);
+                            int cantA = 0;
+                            int cantE = 0;
+                            int cantI = 0;
+                            int cantO = 0;
+                            int cantU = 0;
 
-                            Console.WriteLine($"La cantidad de vocales del array es: {cantVocales}");
+                            cantA = ContarLetraVocal2(arrayCaracteres, 'a');
+                            cantE = ContarLetraVocal2(arrayCaracteres, 'e');
+                            cantI = ContarLetraVocal2(arrayCaracteres, 'i');
+                            cantO = ContarLetraVocal2(arrayCaracteres, 'o');
+                            cantU = ContarLetraVocal2(arrayCaracteres, 'u');
+
+                            Console.WriteLine($"La cantidad de letras a: {cantA}");
+                            Console.WriteLine($"La cantidad de letras e: {cantE}");
+                            Console.WriteLine($"La cantidad de letras i: {cantI}");
+                            Console.WriteLine($"La cantidad de letras o: {cantO}");
+                            Console.WriteLine($"La cantidad de letras u: {cantU}");
+                            
                         }
                         else
                         {
@@ -161,22 +175,22 @@ namespace Ejercicio_04Vectores
             }
             return contador;
         }
-        public static int ContarVocales(char[] vector)
-        {
-            int contadorVocales = 0;
-            for (int i = 0; i < vector.Length; i++)
-            {
-                Console.WriteLine(vector[i]);
+        //public static int ContarVocales(char[] vector)
+        //{
+        //    int contadorVocales = 0;
+        //    for (int i = 0; i < vector.Length; i++)
+        //    {
+        //        Console.WriteLine(vector[i]);
 
-                char letra = char.ToLower(vector[i]);
+        //        char letra = char.ToLower(vector[i]);
 
-                if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u')
-                {
-                    contadorVocales++;
+        //        if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u')
+        //        {
+        //            contadorVocales++;
 
-                }
-            }
-            return contadorVocales;
-        }
+        //        }
+        //    }
+        //    return contadorVocales;
+        //}
     }
 }

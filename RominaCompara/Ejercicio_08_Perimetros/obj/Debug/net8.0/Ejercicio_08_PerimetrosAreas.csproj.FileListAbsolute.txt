@@ -1,0 +1,15 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\bin\Debug\net8.0\Ejercicio_08_PerimetrosAreas.exe
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\bin\Debug\net8.0\Ejercicio_08_PerimetrosAreas.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\bin\Debug\net8.0\Ejercicio_08_PerimetrosAreas.runtimeconfig.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\bin\Debug\net8.0\Ejercicio_08_PerimetrosAreas.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\bin\Debug\net8.0\Ejercicio_08_PerimetrosAreas.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\Ejercicio_08_PerimetrosAreas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\Ejercicio_08_PerimetrosAreas.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\Ejercicio_08_PerimetrosAreas.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\Ejercicio_08_PerimetrosAreas.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\Ejercicio_08_PerimetrosAreas.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\Ejercicio_08_PerimetrosAreas.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\refint\Ejercicio_08_PerimetrosAreas.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\Ejercicio_08_PerimetrosAreas.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\Ejercicio_08_PerimetrosAreas.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicio_08_Perimetros\obj\Debug\net8.0\ref\Ejercicio_08_PerimetrosAreas.dll
