@@ -14,6 +14,15 @@ namespace Ejericicio_01Listas
             Persona persona4 = new Persona("44517267", "Rosa", 28, "Paraguay");
             Persona persona5 = new Persona("31536896", "Diego", 31, "Argentina");
 
+            List<Persona>personas = new List<Persona>();
+
+            personas.Add(persona1);
+            personas.Add(persona2);
+            personas.Add(persona3);
+            personas.Add(persona4);
+            personas.Add(persona5);
+
+            Persona.MostrarLista(personas);
 
         }
     }

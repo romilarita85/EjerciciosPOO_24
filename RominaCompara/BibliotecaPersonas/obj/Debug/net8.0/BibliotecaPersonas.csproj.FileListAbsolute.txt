@@ -3,3 +3,10 @@ C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\
 C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\obj\Debug\net8.0\BibliotecaPersonas.AssemblyInfo.cs
 C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\obj\Debug\net8.0\BibliotecaPersonas.csproj.CoreCompileInputs.cache
 C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\obj\Debug\net8.0\BibliotecaPersonas.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\bin\Debug\net8.0\BibliotecaPersonas.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\bin\Debug\net8.0\BibliotecaPersonas.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\bin\Debug\net8.0\BibliotecaPersonas.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\obj\Debug\net8.0\BibliotecaPersonas.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\obj\Debug\net8.0\refint\BibliotecaPersonas.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\obj\Debug\net8.0\BibliotecaPersonas.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaPersonas\obj\Debug\net8.0\ref\BibliotecaPersonas.dll

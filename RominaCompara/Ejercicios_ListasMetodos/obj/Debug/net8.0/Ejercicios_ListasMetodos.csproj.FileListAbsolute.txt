@@ -1,0 +1,15 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\bin\Debug\net8.0\Ejercicios_ListasMetodos.exe
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\bin\Debug\net8.0\Ejercicios_ListasMetodos.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\bin\Debug\net8.0\Ejercicios_ListasMetodos.runtimeconfig.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\bin\Debug\net8.0\Ejercicios_ListasMetodos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\bin\Debug\net8.0\Ejercicios_ListasMetodos.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\Ejercicios_ListasMetodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\Ejercicios_ListasMetodos.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\Ejercicios_ListasMetodos.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\Ejercicios_ListasMetodos.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\Ejercicios_ListasMetodos.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\Ejercicios_ListasMetodos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\refint\Ejercicios_ListasMetodos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\Ejercicios_ListasMetodos.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\Ejercicios_ListasMetodos.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\Ejercicios_ListasMetodos\obj\Debug\net8.0\ref\Ejercicios_ListasMetodos.dll

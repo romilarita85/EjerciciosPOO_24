@@ -77,11 +77,11 @@ namespace BibliotecaPersonas
         }
         //En la clase persona crear un método estático que reciba una lista de personas,
         //y permita mostrar cada una de las instancias de la lista.
-        public static void MostrarLista(List<string>listaDePersonas) 
+        public static void MostrarLista(List<Persona>listaPersonas) 
         {
-            for (int i = 0; i < listaDePersonas.Count; i++)
+            for (int i = 0; i < listaPersonas.Count; i++)
             {
-                Console.WriteLine(listaDePersonas[i]);
+                Console.WriteLine(listaPersonas[i].MostrarPersona());
             }
  
         }
@@ -95,7 +95,7 @@ namespace BibliotecaPersonas
             sd.AppendLine($"Nombre: {this.Nombre}");
             sd.AppendLine($"Edad: {this.edad}");
             sd.AppendLine($"Ciudad: {this.ciudad}");
-
+            sd.AppendLine("***********************");
 
             return sd.ToString();
         } 

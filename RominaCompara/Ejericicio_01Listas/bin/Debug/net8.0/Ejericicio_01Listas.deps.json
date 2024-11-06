@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ejericicio_01Listas/1.0.0": {
+        "dependencies": {
+          "BibliotecaPersonas": "1.0.0"
+        },
+        "runtime": {
+          "Ejericicio_01Listas.dll": {}
+        }
+      },
+      "BibliotecaPersonas/1.0.0": {
+        "runtime": {
+          "BibliotecaPersonas.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejericicio_01Listas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaPersonas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
