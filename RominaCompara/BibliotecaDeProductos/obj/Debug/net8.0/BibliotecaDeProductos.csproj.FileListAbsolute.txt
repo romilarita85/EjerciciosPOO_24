@@ -1,0 +1,12 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\bin\Debug\net8.0\BibliotecaDeProductos.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\bin\Debug\net8.0\BibliotecaDeProductos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\bin\Debug\net8.0\BibliotecaDeProductos.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\BibliotecaDeProductos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\BibliotecaDeProductos.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\BibliotecaDeProductos.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\BibliotecaDeProductos.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\BibliotecaDeProductos.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\BibliotecaDeProductos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\refint\BibliotecaDeProductos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\BibliotecaDeProductos.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeProductos\obj\Debug\net8.0\ref\BibliotecaDeProductos.dll

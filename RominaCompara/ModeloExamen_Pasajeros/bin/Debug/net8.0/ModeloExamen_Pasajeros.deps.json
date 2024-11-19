@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ModeloExamen_Pasajeros/1.0.0": {
+        "dependencies": {
+          "BibliotecaDePasajeros_Modelo": "1.0.0"
+        },
+        "runtime": {
+          "ModeloExamen_Pasajeros.dll": {}
+        }
+      },
+      "BibliotecaDePasajeros_Modelo/1.0.0": {
+        "runtime": {
+          "BibliotecaDePasajeros_Modelo.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModeloExamen_Pasajeros/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaDePasajeros_Modelo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\bin\Debug\net8.0\BibliotecaDePasajeros_Modelo.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\bin\Debug\net8.0\BibliotecaDePasajeros_Modelo.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\bin\Debug\net8.0\BibliotecaDePasajeros_Modelo.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\BibliotecaDePasajeros_Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\BibliotecaDePasajeros_Modelo.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\BibliotecaDePasajeros_Modelo.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\BibliotecaDePasajeros_Modelo.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\BibliotecaDePasajeros_Modelo.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\BibliotecaDePasajeros_Modelo.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\refint\BibliotecaDePasajeros_Modelo.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\BibliotecaDePasajeros_Modelo.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDePasajeros_Modelo\obj\Debug\net8.0\ref\BibliotecaDePasajeros_Modelo.dll

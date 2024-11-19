@@ -1,6 +1,5 @@
 ﻿
 using System.Drawing;
-using System.Text;
 
 namespace Ejercicios_ListasMetodos
 {
@@ -119,7 +118,7 @@ namespace Ejercicios_ListasMetodos
             MostrarListaInt(edades);
             Console.WriteLine("************Edades mayores a 18***************");
             List<int> misEdades = edades.FindAll(numero => numero>18);
-            Console.WriteLine(misEdades);
+            MostrarListaInt(misEdades);
 
             Console.WriteLine("************METODO SORT***************");
             //-Sort

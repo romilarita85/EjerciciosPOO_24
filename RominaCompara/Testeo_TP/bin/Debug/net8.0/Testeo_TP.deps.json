@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Testeo_TP/1.0.0": {
+        "dependencies": {
+          "BibliotecaDeProductos": "1.0.0"
+        },
+        "runtime": {
+          "Testeo_TP.dll": {}
+        }
+      },
+      "BibliotecaDeProductos/1.0.0": {
+        "runtime": {
+          "BibliotecaDeProductos.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Testeo_TP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaDeProductos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3AA4799-57E8-4A8B-BDB8-ACF343C2B8E4}|Ejercicios_ListasMetodos\\Ejercicios_ListasMetodos.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejercicios_listasmetodos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3AA4799-57E8-4A8B-BDB8-ACF343C2B8E4}|Ejercicios_ListasMetodos\\Ejercicios_ListasMetodos.csproj|solutionrelative:ejercicios_listasmetodos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBB836ED-A167-475E-94F3-E04D2BA9E400}|ModeloExamen_Pasajeros\\ModeloExamen_Pasajeros.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\modeloexamen_pasajeros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB836ED-A167-475E-94F3-E04D2BA9E400}|ModeloExamen_Pasajeros\\ModeloExamen_Pasajeros.csproj|solutionrelative:modeloexamen_pasajeros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08AC8E18-DA1C-49B6-BF45-6C40B8E59410}|BibliotecaPersonas\\BibliotecaPersonas.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\bibliotecapersonas\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08AC8E18-DA1C-49B6-BF45-6C40B8E59410}|BibliotecaPersonas\\BibliotecaPersonas.csproj|solutionrelative:bibliotecapersonas\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC3E789C-203E-4013-AEE0-7D8389B92ED1}|BibliotecaDePasajeros_Modelo\\BibliotecaDePasajeros_Modelo.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\bibliotecadepasajeros_modelo\\cortadistancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC3E789C-203E-4013-AEE0-7D8389B92ED1}|BibliotecaDePasajeros_Modelo\\BibliotecaDePasajeros_Modelo.csproj|solutionrelative:bibliotecadepasajeros_modelo\\cortadistancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F4A888E-D72B-46E2-9581-8EAC1CA93D31}|Ejericicio_01Listas\\Ejericicio_01Listas.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\ejericicio_01listas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F4A888E-D72B-46E2-9581-8EAC1CA93D31}|Ejericicio_01Listas\\Ejericicio_01Listas.csproj|solutionrelative:ejericicio_01listas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC3E789C-203E-4013-AEE0-7D8389B92ED1}|BibliotecaDePasajeros_Modelo\\BibliotecaDePasajeros_Modelo.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\bibliotecadepasajeros_modelo\\largadistancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC3E789C-203E-4013-AEE0-7D8389B92ED1}|BibliotecaDePasajeros_Modelo\\BibliotecaDePasajeros_Modelo.csproj|solutionrelative:bibliotecadepasajeros_modelo\\largadistancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC3E789C-203E-4013-AEE0-7D8389B92ED1}|BibliotecaDePasajeros_Modelo\\BibliotecaDePasajeros_Modelo.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\bibliotecadepasajeros_modelo\\transporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC3E789C-203E-4013-AEE0-7D8389B92ED1}|BibliotecaDePasajeros_Modelo\\BibliotecaDePasajeros_Modelo.csproj|solutionrelative:bibliotecadepasajeros_modelo\\transporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC3E789C-203E-4013-AEE0-7D8389B92ED1}|BibliotecaDePasajeros_Modelo\\BibliotecaDePasajeros_Modelo.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\bibliotecadepasajeros_modelo\\pasajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC3E789C-203E-4013-AEE0-7D8389B92ED1}|BibliotecaDePasajeros_Modelo\\BibliotecaDePasajeros_Modelo.csproj|solutionrelative:bibliotecadepasajeros_modelo\\pasajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,40 +42,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicios_ListasMetodos\\Program.cs",
-              "RelativeDocumentMoniker": "Ejercicios_ListasMetodos\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejercicios_ListasMetodos\\Program.cs",
-              "RelativeToolTip": "Ejercicios_ListasMetodos\\Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAQwNEAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LargaDistancia.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDePasajeros_Modelo\\LargaDistancia.cs",
+              "RelativeDocumentMoniker": "BibliotecaDePasajeros_Modelo\\LargaDistancia.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDePasajeros_Modelo\\LargaDistancia.cs",
+              "RelativeToolTip": "BibliotecaDePasajeros_Modelo\\LargaDistancia.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwDoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T23:58:02.136Z",
+              "WhenOpened": "2024-11-19T21:01:47.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaPersonas\\Persona.cs",
-              "RelativeDocumentMoniker": "BibliotecaPersonas\\Persona.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaPersonas\\Persona.cs",
-              "RelativeToolTip": "BibliotecaPersonas\\Persona.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAwwGEAAAAyAAAAAAAAAA==",
+              "Title": "CortaDistancia.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDePasajeros_Modelo\\CortaDistancia.cs",
+              "RelativeDocumentMoniker": "BibliotecaDePasajeros_Modelo\\CortaDistancia.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDePasajeros_Modelo\\CortaDistancia.cs",
+              "RelativeToolTip": "BibliotecaDePasajeros_Modelo\\CortaDistancia.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:27:55.832Z"
+              "WhenOpened": "2024-11-19T21:01:48.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejericicio_01Listas\\Program.cs",
-              "RelativeDocumentMoniker": "Ejericicio_01Listas\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\Ejericicio_01Listas\\Program.cs",
-              "RelativeToolTip": "Ejericicio_01Listas\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Pasajero.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDePasajeros_Modelo\\Pasajero.cs",
+              "RelativeDocumentMoniker": "BibliotecaDePasajeros_Modelo\\Pasajero.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDePasajeros_Modelo\\Pasajero.cs",
+              "RelativeToolTip": "BibliotecaDePasajeros_Modelo\\Pasajero.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:25:54.294Z"
+              "WhenOpened": "2024-11-19T21:01:46.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transporte.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDePasajeros_Modelo\\Transporte.cs",
+              "RelativeDocumentMoniker": "BibliotecaDePasajeros_Modelo\\Transporte.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDePasajeros_Modelo\\Transporte.cs",
+              "RelativeToolTip": "BibliotecaDePasajeros_Modelo\\Transporte.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T21:01:45.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\ModeloExamen_Pasajeros\\Program.cs",
+              "RelativeDocumentMoniker": "ModeloExamen_Pasajeros\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\ModeloExamen_Pasajeros\\Program.cs",
+              "RelativeToolTip": "ModeloExamen_Pasajeros\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwCUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T21:01:10Z",
+              "EditorCaption": ""
             }
           ]
         }
