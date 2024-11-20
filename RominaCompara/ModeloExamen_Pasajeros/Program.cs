@@ -41,27 +41,32 @@ namespace ModeloExamen_Pasajeros
             colectivo1.RealizarRecorrido(2);
             colectivo2.RealizarRecorrido(2);
             colectivo3.RealizarRecorrido(2);
+            Console.WriteLine(colectivo1.CantidadDeParadas);
+            Console.WriteLine(colectivo2.CantidadDeParadas);
+            Console.WriteLine(colectivo3.CantidadDeParadas);
 
-            //○ Sacar 3 boletos para los 3 colectivos.
-            colectivo1.SacarBoleto("Bariloche");
-            colectivo2.SacarBoleto("Las toninas");
-            colectivo3.SacarBoleto("Lobos");
-           
+            //○ Sacar 3 boletos para los 3 colectivos. //ok
+            Console.WriteLine(colectivo1.SacarBoleto("Bariloche"));
+            Console.WriteLine(colectivo2.SacarBoleto("Las toninas"));
+            Console.WriteLine(colectivo3.SacarBoleto("Lobos"));
+            Console.WriteLine("------------------------------------------------");
             //○ Para el colectivo1 realizar el recorrido para la parada que le queda e
-            //intentar subir un pasajero.
-            Console.WriteLine(colectivo1.SacarBoleto("Playa", new Pasajero("Carina", "femenino", 30)));
-            
-            //○ Para el colectivo2 sacar 3 boletos.
-            Console.WriteLine(colectivo2.SacarBoleto("Palpala", new Pasajero("Beatriz","femenino", 45)));
-            Console.WriteLine(colectivo2.SacarBoleto("Mar del plata", new Pasajero("Lui","masculino", 55)));
-            Console.WriteLine(colectivo2.SacarBoleto("Cielo", new Pasajero("Ricardo","masculino", 23)));
-            
-            //○ Para el colectivo3 sacar 1 boleto.
-            Console.WriteLine(colectivo3.SacarBoleto("Tierra", new Pasajero("Roberto", "masculino", 35)));
-            
-            
+            //intentar subir un pasajero. //ok
+            Console.WriteLine(colectivo1.SacarBoleto("Playa"));
+            Console.WriteLine("------------------------------------------------");
+            //○ Para el colectivo2 sacar 3 boletos. //ok
+            Console.WriteLine(colectivo2.SacarBoleto("Palpala"));
+            Console.WriteLine(colectivo2.SacarBoleto("Mar del plata"));
+            Console.WriteLine(colectivo2.SacarBoleto("Corrientes"));
+
+            Console.WriteLine("------------------------------------------------");
+            //○ Para el colectivo3 sacar 1 boleto. //ok
+            Console.WriteLine(colectivo3.SacarBoleto("Tierra del Fuego"));
+
+            Console.WriteLine("------------------------------------------------"); //----Problemas 
             //● Crear 1 objeto de la clase “LargaDistancia” con capacidad para 5 pasajeros.
-            LargaDistancia colectivo4 = new LargaDistancia(34, 14, "Carlos", 5);
+            List<Pasajero> listaPasajeros = new List<Pasajero>();
+            LargaDistancia colectivo4 = new LargaDistancia(33,12,"Roberto", 5, listaPasajeros);
             //● Crear 6 pasajeros e intentar:
             Pasajero p1 = new Pasajero("Juan", "masculino", 32);
             Pasajero p2 = new Pasajero("Roxana", "femenino", 21);
@@ -69,7 +74,6 @@ namespace ModeloExamen_Pasajeros
             Pasajero p4 = new Pasajero("Jonathan", "masculino", 28);
             Pasajero p5 = new Pasajero("Jorge", "masculino", 38);
             Pasajero p6 = new Pasajero("Sabrina", "femenino", 45);
-            List<Pasajero> listaPasajeros = new List<Pasajero>() {p1,p2,p3,p4,p5,p6};
 
             //○ Que los pasajeros 1, 2, 3 y 4 saquen boleto (deberían subir sin
             //problemas)
@@ -78,24 +82,31 @@ namespace ModeloExamen_Pasajeros
             Console.WriteLine(colectivo4.SacarBoleto("Mendoza", p3));
             Console.WriteLine(colectivo4.SacarBoleto("San Juan", p4));
 
+            Console.WriteLine("------------------------------------------------");
             //○ Intentar que el pasajero 2 saque boleto nuevamente (no debería
             //dejarlo)
+            Console.WriteLine("Intentar que el pasajero 2 saque boleto nuevamente (no debería dejarlo)\r\n");
             Console.WriteLine(colectivo4.SacarBoleto("Las toninas", p2));
-
+            Console.WriteLine("------------------------------------------------");
             //○ Que el pasajero 5 saque boleto (debería subir sin problema)
+            Console.WriteLine("Que el pasajero 5 saque boleto (debería subir sin problema) \r\n");
             Console.WriteLine(colectivo4.SacarBoleto("Parana", p5));
+            Console.WriteLine("------------------------------------------------");
             //○ Que el pasajero 6 saque boleto (no debería dejarlo)
+            Console.WriteLine(" Que el pasajero 6 saque boleto (no debería dejarlo) \r\n");
             Console.WriteLine(colectivo4.SacarBoleto("San fernando", p6));
-            
-            //● Agregar el transporte de larga distancia a la lista de Transporte.
+            Console.WriteLine("------------------------------------------------");
+            //● Agregar el transporte de larga distancia a la lista de Transporte.//ok
             listaTransporte.Add(colectivo4);
-
-            //● Recorrer la lista y enviar la señal para servir la comida
+          
+            //● Recorrer la lista y enviar la señal para servir la comida //ok
             foreach (Transporte transporte in listaTransporte)
             {
                 Console.WriteLine(transporte.ServirComida());
             }
+
+            
         }
-    
+
     }
 }

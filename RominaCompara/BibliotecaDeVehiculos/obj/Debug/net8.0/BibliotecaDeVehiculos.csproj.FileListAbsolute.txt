@@ -1,0 +1,12 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\bin\Debug\net8.0\BibliotecaDeVehiculos.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\bin\Debug\net8.0\BibliotecaDeVehiculos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\bin\Debug\net8.0\BibliotecaDeVehiculos.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\BibliotecaDeVehiculos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\BibliotecaDeVehiculos.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\BibliotecaDeVehiculos.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\BibliotecaDeVehiculos.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\BibliotecaDeVehiculos.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\BibliotecaDeVehiculos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\refint\BibliotecaDeVehiculos.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\BibliotecaDeVehiculos.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\EjerciciosPOO_24\RominaCompara\BibliotecaDeVehiculos\obj\Debug\net8.0\ref\BibliotecaDeVehiculos.dll

@@ -28,7 +28,6 @@ namespace BibliotecaDePasajeros_Modelo
             { 
                 return this.cantidadDeParadas; 
             }
-                
         }
 
         //Métodos y sobreescritura:
@@ -40,10 +39,11 @@ namespace BibliotecaDePasajeros_Modelo
         public override string SacarBoleto(string destino)
         {
             string msje= "Imposible subir pasajeros";//en caso de q no alla capacidad o mas paradas;
+           
             if (this.cantidadDeParadas > 0 && this.cantidadPasajeros > 0)
             {
-                cantidadPasajeros = cantidadPasajeros - 1; //El método disminuye en 1 la cantidad de pasajeros 
-
+                this.cantidadPasajeros = this.cantidadPasajeros - 1; //El método disminuye en 1 la cantidad de pasajeros 
+                      
                 msje = $"{base.SacarBoleto(destino)}"; //y retorna el mensaje de la clase base.
             }
            
@@ -60,7 +60,7 @@ namespace BibliotecaDePasajeros_Modelo
 
         //● Crear el método void RealizarRecorrido(int): disminuye la cantidad de
         //paradas en el valor recibido como parámetro.
-        public void RealizarRecorrido(int valor) 
+        public void RealizarRecorrido(int valor) //decrementar contador
         {
             this.cantidadDeParadas = this.cantidadDeParadas - valor;
         }

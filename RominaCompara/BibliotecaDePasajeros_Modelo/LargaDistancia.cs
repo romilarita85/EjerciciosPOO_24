@@ -20,7 +20,7 @@ namespace BibliotecaDePasajeros_Modelo
         //    pasajerosABordo = new List<Pasajero>();
         //}
 
-        public LargaDistancia(int linea, int interno, string chofer, int cantidadPasajeros)
+        public LargaDistancia(int linea, int interno, string chofer, int cantidadPasajeros,List<Pasajero>pasajerosABordo)
             :base(linea, interno, chofer, cantidadPasajeros)
         {
             pasajerosABordo = new List<Pasajero>();
@@ -32,11 +32,16 @@ namespace BibliotecaDePasajeros_Modelo
         public static bool operator ==(LargaDistancia l, Pasajero p) 
         {
             bool seEncuentra = false;
-            foreach  (Pasajero item in l.pasajerosABordo)
+
+            if (l.pasajerosABordo is not null) 
             {
-                if (item == p)
+                foreach  (Pasajero item in l.pasajerosABordo)
                 {
-                    seEncuentra = true;
+                    if (item == p)
+                    {
+                        seEncuentra = true;
+                        break;
+                    }
                 }
             }
             return seEncuentra;
@@ -44,34 +49,22 @@ namespace BibliotecaDePasajeros_Modelo
 
         public static bool operator !=(LargaDistancia l, Pasajero p)
         {
-            return !(l == p);
+            return !(l==p);
         }
         //● Sobrecargar al operador + (LargaDistancia, Pasajero): para que agregue
         //un pasajero a la lista de pasajeros, solo si hay espacio en la lista y si el
         //pasajero no se encuentra en la misma.
-        public static LargaDistancia operator +(LargaDistancia l, Pasajero p) 
+        public static bool operator +(LargaDistancia l, Pasajero p) 
         {
-            bool hayEspacio = false;
-            bool existePasajero = false;
-            
-            //Verificamos si el pasajero ya está en la lista
-            if (l.pasajerosABordo.Contains(p))
-            {
-                existePasajero = true;//pasajero esta en la lista
-            }
-            //Verificamos si hay espacio en el transporte
-            
-            if (l.pasajerosABordo.Count < l.cantidadPasajeros)
-            {
-                hayEspacio =true;
-            }
-            // Si hay espacio y el pasajero no está en la lista, lo agregamos
-            if (!existePasajero && hayEspacio)
-            {
-                l.pasajerosABordo.Add(p);
-            }
+            bool result = false;
 
-            return l; // Retornamos el objeto LargaDistancia modificado
+            if (l.pasajerosABordo.Count < l.cantidadPasajeros &&  l != p ) // Si hay espacio 
+            {
+                l.pasajerosABordo.Add(p); // Agrega el pasajero
+                result = true;
+            }
+  
+            return result;
         }
 
         //● Sobreescribir el método SacarBoleto(string, Pasajero). El método verifica
@@ -80,12 +73,16 @@ namespace BibliotecaDePasajeros_Modelo
         //condiciones, lo agrega utilizando el operador +. En este caso retorna el
         //mensaje de la clase base. En caso contrario retorna el mensaje “Imposible
         //subir pasajero”.
-        public override string SacarBoleto(string mensaje, Pasajero p)
+        public override string SacarBoleto(string destino, Pasajero p)
         {
-            string msje = "Imposible subir pasajeros";
-            
+            string result = "Imposible subir pasajero";
 
-            return msje;
+            if (this + p)
+            { 
+                result = base.SacarBoleto(destino,p); // Llamada al método base
+            
+            }
+            return result;
         }
 
         //● Sobreescribir el método ServirComida: en este caso el método retorna un
@@ -94,6 +91,21 @@ namespace BibliotecaDePasajeros_Modelo
         {
             return "La comida está servida. Menú del día: pollo o pasta";
         }
+        //Metodo q me dice si esta o no el pasajero:
+        public static bool BuscarPasajero(List<Pasajero> lista, Pasajero p) 
+        {
+            bool resultado = false;
+            foreach (Pasajero item in lista)
+            {
+                if (item == p)
+                {
+                    resultado = true;
+                    break;
+                }
+            }
+            return resultado;
+        }
+       
 
     }
 }
