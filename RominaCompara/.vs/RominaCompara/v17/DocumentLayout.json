@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E743C75F-65C3-4EE6-B56F-7A767FF1A909}|BibliotecaDeLibros\\BibliotecaDeLibros.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\bibliotecadelibros\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E743C75F-65C3-4EE6-B56F-7A767FF1A909}|BibliotecaDeLibros\\BibliotecaDeLibros.csproj|solutionrelative:bibliotecadelibros\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\frmcalculadora\\formaltacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|solutionrelative:frmcalculadora\\formaltacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08AC8E18-DA1C-49B6-BF45-6C40B8E59410}|BibliotecaPersonas\\BibliotecaPersonas.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\bibliotecapersonas\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08AC8E18-DA1C-49B6-BF45-6C40B8E59410}|BibliotecaPersonas\\BibliotecaPersonas.csproj|solutionrelative:bibliotecapersonas\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\frmcalculadora\\formaltacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|solutionrelative:frmcalculadora\\formaltacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\frmcalculadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|solutionrelative:frmcalculadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\frmcalculadora\\formaltacalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|solutionrelative:frmcalculadora\\formaltacalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\ejerciciospoo_24\\rominacompara\\frmcalculadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}|FrmCalculadora\\FrmCalculadora.csproj|solutionrelative:frmcalculadora\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormAltaCalculadora.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormAltaCalculadora.Designer.cs",
+              "RelativeDocumentMoniker": "FrmCalculadora\\FormAltaCalculadora.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormAltaCalculadora.Designer.cs",
+              "RelativeToolTip": "FrmCalculadora\\FormAltaCalculadora.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:51:33.153Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -30,29 +55,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDeLibros\\Libro.cs",
-              "RelativeDocumentMoniker": "BibliotecaDeLibros\\Libro.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaDeLibros\\Libro.cs",
-              "RelativeToolTip": "BibliotecaDeLibros\\Libro.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "FrmCalculadora\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormPrincipal.cs",
+              "RelativeToolTip": "FrmCalculadora\\FormPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:06:13.245Z",
+              "WhenOpened": "2024-11-27T12:35:34.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaPersonas\\Persona.cs",
-              "RelativeDocumentMoniker": "BibliotecaPersonas\\Persona.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\BibliotecaPersonas\\Persona.cs",
-              "RelativeToolTip": "BibliotecaPersonas\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Title": "FormAltaCalculadora.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormAltaCalculadora.cs",
+              "RelativeDocumentMoniker": "FrmCalculadora\\FormAltaCalculadora.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormAltaCalculadora.cs",
+              "RelativeToolTip": "FrmCalculadora\\FormAltaCalculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:05:02.081Z",
+              "WhenOpened": "2024-11-27T01:32:07.687Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAltaCalculadora.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormAltaCalculadora.cs",
+              "RelativeDocumentMoniker": "FrmCalculadora\\FormAltaCalculadora.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormAltaCalculadora.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmCalculadora\\FormAltaCalculadora.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:18:03.131Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "FrmCalculadora\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\EjerciciosPOO_24\\RominaCompara\\FrmCalculadora\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FrmCalculadora\\FormPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:25:38.947Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

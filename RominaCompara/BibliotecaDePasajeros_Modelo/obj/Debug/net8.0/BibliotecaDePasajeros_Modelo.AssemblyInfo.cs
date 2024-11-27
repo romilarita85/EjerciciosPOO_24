@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaDePasajeros_Modelo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5826e15eb3e7db60a25b2012472d23fb4aac7fe8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb34ef4fe4cf7b7ce21360a138d0cd313cfd1df8")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaDePasajeros_Modelo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaDePasajeros_Modelo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

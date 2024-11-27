@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteoTP_PH", "TesteoTP_PH\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaDeVehiculos", "BibliotecaDeVehiculos\BibliotecaDeVehiculos.csproj", "{189928EB-3A98-470D-A4EB-0CF7E98249D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmCalculadora", "FrmCalculadora\FrmCalculadora.csproj", "{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{189928EB-3A98-470D-A4EB-0CF7E98249D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{189928EB-3A98-470D-A4EB-0CF7E98249D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{189928EB-3A98-470D-A4EB-0CF7E98249D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B985D2BB-F7F5-48DF-AD2A-B30E564DC510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
